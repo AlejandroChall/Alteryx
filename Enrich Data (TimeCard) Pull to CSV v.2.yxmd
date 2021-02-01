@@ -1,0 +1,790 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:Shop|||select R_TimeCard.N3C9NB,
+	R_TimeCard.N3FJDT,
+	R_TimeCard.N3BATM,
+	R_TimeCard.N3S4CD,
+	R_TimeCard.N3B3DT,
+	R_TimeCard.N3AETM,
+	R_TimeCard.N3FNDT,
+	R_TimeCard.N3AFTM,
+	R_TimeCard.N3PRST,
+	R_TimeCard.N3PSST,
+	R_TimeCard.N3PTST,
+	R_TimeCard.N3S3CD,
+	R_TimeCard.N3SMCD,
+	R_TimeCard.N3S5CD,
+	R_TimeCard.N3SVCD,
+	R_TimeCard.N3YENB,
+	R_TimeCard.N3BLCD,
+	R_TimeCard.N3BCNB,
+	R_TimeCard.N3S3NB,
+	R_TimeCard.N3FPDT,
+	R_TimeCard.N3Y2NB,
+	R_TimeCard.N3UASU,
+	R_TimeCard.N3PHNB 
+from R_TimeCard</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Shop
+Query=select R_TimeCard.N3C9NB,
+	...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="N3C9NB" scale="0" size="30" source="File: aka:Shop|||select R_TimeCard.N3C9NB,&#xA;	R_TimeCard.N3FJDT,&#xA;	R_TimeCard.N3BATM,&#xA;	R_TimeCard.N3S4CD,&#xA;	R_TimeCard.N3B3DT,&#xA;	R_TimeCard.N3AETM,&#xA;	R_TimeCard.N3FNDT,&#xA;	R_TimeCard.N3AFTM,&#xA;	R_TimeCard.N3PRST,&#xA;	R_TimeCard.N3PSST,&#xA;	R_TimeCard.N3PTST,&#xA;	R_TimeCard.N3S3CD,&#xA;	R_TimeCard.N3SMCD,&#xA;	R_TimeCard.N3S5CD,&#xA;	R_TimeCard.N3SVCD,&#xA;	R_TimeCard.N3YENB,&#xA;	R_TimeCard.N3BLCD,&#xA;	R_TimeCard.N3BCNB,&#xA;	R_TimeCard.N3S3NB,&#xA;	R_TimeCard.N3FPDT,&#xA;	R_TimeCard.N3Y2NB,&#xA;	R_TimeCard.N3UASU,&#xA;	R_TimeCard.N3PHNB &#xA;from R_TimeCard" type="FixedDecimal" />
+            <Field name="N3FJDT" scale="0" size="30" source="File: aka:Shop|||select R_TimeCard.N3C9NB,&#xA;	R_TimeCard.N3FJDT,&#xA;	R_TimeCard.N3BATM,&#xA;	R_TimeCard.N3S4CD,&#xA;	R_TimeCard.N3B3DT,&#xA;	R_TimeCard.N3AETM,&#xA;	R_TimeCard.N3FNDT,&#xA;	R_TimeCard.N3AFTM,&#xA;	R_TimeCard.N3PRST,&#xA;	R_TimeCard.N3PSST,&#xA;	R_TimeCard.N3PTST,&#xA;	R_TimeCard.N3S3CD,&#xA;	R_TimeCard.N3SMCD,&#xA;	R_TimeCard.N3S5CD,&#xA;	R_TimeCard.N3SVCD,&#xA;	R_TimeCard.N3YENB,&#xA;	R_TimeCard.N3BLCD,&#xA;	R_TimeCard.N3BCNB,&#xA;	R_TimeCard.N3S3NB,&#xA;	R_TimeCard.N3FPDT,&#xA;	R_TimeCard.N3Y2NB,&#xA;	R_TimeCard.N3UASU,&#xA;	R_TimeCard.N3PHNB &#xA;from R_TimeCard" type="FixedDecimal" />
+            <Field name="N3BATM" scale="0" size="30" source="File: aka:Shop|||select R_TimeCard.N3C9NB,&#xA;	R_TimeCard.N3FJDT,&#xA;	R_TimeCard.N3BATM,&#xA;	R_TimeCard.N3S4CD,&#xA;	R_TimeCard.N3B3DT,&#xA;	R_TimeCard.N3AETM,&#xA;	R_TimeCard.N3FNDT,&#xA;	R_TimeCard.N3AFTM,&#xA;	R_TimeCard.N3PRST,&#xA;	R_TimeCard.N3PSST,&#xA;	R_TimeCard.N3PTST,&#xA;	R_TimeCard.N3S3CD,&#xA;	R_TimeCard.N3SMCD,&#xA;	R_TimeCard.N3S5CD,&#xA;	R_TimeCard.N3SVCD,&#xA;	R_TimeCard.N3YENB,&#xA;	R_TimeCard.N3BLCD,&#xA;	R_TimeCard.N3BCNB,&#xA;	R_TimeCard.N3S3NB,&#xA;	R_TimeCard.N3FPDT,&#xA;	R_TimeCard.N3Y2NB,&#xA;	R_TimeCard.N3UASU,&#xA;	R_TimeCard.N3PHNB &#xA;from R_TimeCard" type="FixedDecimal" />
+            <Field name="N3S4CD" scale="0" size="30" source="File: aka:Shop|||select R_TimeCard.N3C9NB,&#xA;	R_TimeCard.N3FJDT,&#xA;	R_TimeCard.N3BATM,&#xA;	R_TimeCard.N3S4CD,&#xA;	R_TimeCard.N3B3DT,&#xA;	R_TimeCard.N3AETM,&#xA;	R_TimeCard.N3FNDT,&#xA;	R_TimeCard.N3AFTM,&#xA;	R_TimeCard.N3PRST,&#xA;	R_TimeCard.N3PSST,&#xA;	R_TimeCard.N3PTST,&#xA;	R_TimeCard.N3S3CD,&#xA;	R_TimeCard.N3SMCD,&#xA;	R_TimeCard.N3S5CD,&#xA;	R_TimeCard.N3SVCD,&#xA;	R_TimeCard.N3YENB,&#xA;	R_TimeCard.N3BLCD,&#xA;	R_TimeCard.N3BCNB,&#xA;	R_TimeCard.N3S3NB,&#xA;	R_TimeCard.N3FPDT,&#xA;	R_TimeCard.N3Y2NB,&#xA;	R_TimeCard.N3UASU,&#xA;	R_TimeCard.N3PHNB &#xA;from R_TimeCard" type="FixedDecimal" />
+            <Field name="N3B3DT" scale="0" size="30" source="File: aka:Shop|||select R_TimeCard.N3C9NB,&#xA;	R_TimeCard.N3FJDT,&#xA;	R_TimeCard.N3BATM,&#xA;	R_TimeCard.N3S4CD,&#xA;	R_TimeCard.N3B3DT,&#xA;	R_TimeCard.N3AETM,&#xA;	R_TimeCard.N3FNDT,&#xA;	R_TimeCard.N3AFTM,&#xA;	R_TimeCard.N3PRST,&#xA;	R_TimeCard.N3PSST,&#xA;	R_TimeCard.N3PTST,&#xA;	R_TimeCard.N3S3CD,&#xA;	R_TimeCard.N3SMCD,&#xA;	R_TimeCard.N3S5CD,&#xA;	R_TimeCard.N3SVCD,&#xA;	R_TimeCard.N3YENB,&#xA;	R_TimeCard.N3BLCD,&#xA;	R_TimeCard.N3BCNB,&#xA;	R_TimeCard.N3S3NB,&#xA;	R_TimeCard.N3FPDT,&#xA;	R_TimeCard.N3Y2NB,&#xA;	R_TimeCard.N3UASU,&#xA;	R_TimeCard.N3PHNB &#xA;from R_TimeCard" type="FixedDecimal" />
+            <Field name="N3AETM" scale="0" size="30" source="File: aka:Shop|||select R_TimeCard.N3C9NB,&#xA;	R_TimeCard.N3FJDT,&#xA;	R_TimeCard.N3BATM,&#xA;	R_TimeCard.N3S4CD,&#xA;	R_TimeCard.N3B3DT,&#xA;	R_TimeCard.N3AETM,&#xA;	R_TimeCard.N3FNDT,&#xA;	R_TimeCard.N3AFTM,&#xA;	R_TimeCard.N3PRST,&#xA;	R_TimeCard.N3PSST,&#xA;	R_TimeCard.N3PTST,&#xA;	R_TimeCard.N3S3CD,&#xA;	R_TimeCard.N3SMCD,&#xA;	R_TimeCard.N3S5CD,&#xA;	R_TimeCard.N3SVCD,&#xA;	R_TimeCard.N3YENB,&#xA;	R_TimeCard.N3BLCD,&#xA;	R_TimeCard.N3BCNB,&#xA;	R_TimeCard.N3S3NB,&#xA;	R_TimeCard.N3FPDT,&#xA;	R_TimeCard.N3Y2NB,&#xA;	R_TimeCard.N3UASU,&#xA;	R_TimeCard.N3PHNB &#xA;from R_TimeCard" type="FixedDecimal" />
+            <Field name="N3FNDT" scale="0" size="30" source="File: aka:Shop|||select R_TimeCard.N3C9NB,&#xA;	R_TimeCard.N3FJDT,&#xA;	R_TimeCard.N3BATM,&#xA;	R_TimeCard.N3S4CD,&#xA;	R_TimeCard.N3B3DT,&#xA;	R_TimeCard.N3AETM,&#xA;	R_TimeCard.N3FNDT,&#xA;	R_TimeCard.N3AFTM,&#xA;	R_TimeCard.N3PRST,&#xA;	R_TimeCard.N3PSST,&#xA;	R_TimeCard.N3PTST,&#xA;	R_TimeCard.N3S3CD,&#xA;	R_TimeCard.N3SMCD,&#xA;	R_TimeCard.N3S5CD,&#xA;	R_TimeCard.N3SVCD,&#xA;	R_TimeCard.N3YENB,&#xA;	R_TimeCard.N3BLCD,&#xA;	R_TimeCard.N3BCNB,&#xA;	R_TimeCard.N3S3NB,&#xA;	R_TimeCard.N3FPDT,&#xA;	R_TimeCard.N3Y2NB,&#xA;	R_TimeCard.N3UASU,&#xA;	R_TimeCard.N3PHNB &#xA;from R_TimeCard" type="FixedDecimal" />
+            <Field name="N3AFTM" scale="0" size="30" source="File: aka:Shop|||select R_TimeCard.N3C9NB,&#xA;	R_TimeCard.N3FJDT,&#xA;	R_TimeCard.N3BATM,&#xA;	R_TimeCard.N3S4CD,&#xA;	R_TimeCard.N3B3DT,&#xA;	R_TimeCard.N3AETM,&#xA;	R_TimeCard.N3FNDT,&#xA;	R_TimeCard.N3AFTM,&#xA;	R_TimeCard.N3PRST,&#xA;	R_TimeCard.N3PSST,&#xA;	R_TimeCard.N3PTST,&#xA;	R_TimeCard.N3S3CD,&#xA;	R_TimeCard.N3SMCD,&#xA;	R_TimeCard.N3S5CD,&#xA;	R_TimeCard.N3SVCD,&#xA;	R_TimeCard.N3YENB,&#xA;	R_TimeCard.N3BLCD,&#xA;	R_TimeCard.N3BCNB,&#xA;	R_TimeCard.N3S3NB,&#xA;	R_TimeCard.N3FPDT,&#xA;	R_TimeCard.N3Y2NB,&#xA;	R_TimeCard.N3UASU,&#xA;	R_TimeCard.N3PHNB &#xA;from R_TimeCard" type="FixedDecimal" />
+            <Field name="N3PRST" size="1" source="File: aka:Shop|||select R_TimeCard.N3C9NB,&#xA;	R_TimeCard.N3FJDT,&#xA;	R_TimeCard.N3BATM,&#xA;	R_TimeCard.N3S4CD,&#xA;	R_TimeCard.N3B3DT,&#xA;	R_TimeCard.N3AETM,&#xA;	R_TimeCard.N3FNDT,&#xA;	R_TimeCard.N3AFTM,&#xA;	R_TimeCard.N3PRST,&#xA;	R_TimeCard.N3PSST,&#xA;	R_TimeCard.N3PTST,&#xA;	R_TimeCard.N3S3CD,&#xA;	R_TimeCard.N3SMCD,&#xA;	R_TimeCard.N3S5CD,&#xA;	R_TimeCard.N3SVCD,&#xA;	R_TimeCard.N3YENB,&#xA;	R_TimeCard.N3BLCD,&#xA;	R_TimeCard.N3BCNB,&#xA;	R_TimeCard.N3S3NB,&#xA;	R_TimeCard.N3FPDT,&#xA;	R_TimeCard.N3Y2NB,&#xA;	R_TimeCard.N3UASU,&#xA;	R_TimeCard.N3PHNB &#xA;from R_TimeCard" type="V_String" />
+            <Field name="N3PSST" size="1" source="File: aka:Shop|||select R_TimeCard.N3C9NB,&#xA;	R_TimeCard.N3FJDT,&#xA;	R_TimeCard.N3BATM,&#xA;	R_TimeCard.N3S4CD,&#xA;	R_TimeCard.N3B3DT,&#xA;	R_TimeCard.N3AETM,&#xA;	R_TimeCard.N3FNDT,&#xA;	R_TimeCard.N3AFTM,&#xA;	R_TimeCard.N3PRST,&#xA;	R_TimeCard.N3PSST,&#xA;	R_TimeCard.N3PTST,&#xA;	R_TimeCard.N3S3CD,&#xA;	R_TimeCard.N3SMCD,&#xA;	R_TimeCard.N3S5CD,&#xA;	R_TimeCard.N3SVCD,&#xA;	R_TimeCard.N3YENB,&#xA;	R_TimeCard.N3BLCD,&#xA;	R_TimeCard.N3BCNB,&#xA;	R_TimeCard.N3S3NB,&#xA;	R_TimeCard.N3FPDT,&#xA;	R_TimeCard.N3Y2NB,&#xA;	R_TimeCard.N3UASU,&#xA;	R_TimeCard.N3PHNB &#xA;from R_TimeCard" type="V_String" />
+            <Field name="N3PTST" size="1" source="File: aka:Shop|||select R_TimeCard.N3C9NB,&#xA;	R_TimeCard.N3FJDT,&#xA;	R_TimeCard.N3BATM,&#xA;	R_TimeCard.N3S4CD,&#xA;	R_TimeCard.N3B3DT,&#xA;	R_TimeCard.N3AETM,&#xA;	R_TimeCard.N3FNDT,&#xA;	R_TimeCard.N3AFTM,&#xA;	R_TimeCard.N3PRST,&#xA;	R_TimeCard.N3PSST,&#xA;	R_TimeCard.N3PTST,&#xA;	R_TimeCard.N3S3CD,&#xA;	R_TimeCard.N3SMCD,&#xA;	R_TimeCard.N3S5CD,&#xA;	R_TimeCard.N3SVCD,&#xA;	R_TimeCard.N3YENB,&#xA;	R_TimeCard.N3BLCD,&#xA;	R_TimeCard.N3BCNB,&#xA;	R_TimeCard.N3S3NB,&#xA;	R_TimeCard.N3FPDT,&#xA;	R_TimeCard.N3Y2NB,&#xA;	R_TimeCard.N3UASU,&#xA;	R_TimeCard.N3PHNB &#xA;from R_TimeCard" type="V_String" />
+            <Field name="N3S3CD" size="6" source="File: aka:Shop|||select R_TimeCard.N3C9NB,&#xA;	R_TimeCard.N3FJDT,&#xA;	R_TimeCard.N3BATM,&#xA;	R_TimeCard.N3S4CD,&#xA;	R_TimeCard.N3B3DT,&#xA;	R_TimeCard.N3AETM,&#xA;	R_TimeCard.N3FNDT,&#xA;	R_TimeCard.N3AFTM,&#xA;	R_TimeCard.N3PRST,&#xA;	R_TimeCard.N3PSST,&#xA;	R_TimeCard.N3PTST,&#xA;	R_TimeCard.N3S3CD,&#xA;	R_TimeCard.N3SMCD,&#xA;	R_TimeCard.N3S5CD,&#xA;	R_TimeCard.N3SVCD,&#xA;	R_TimeCard.N3YENB,&#xA;	R_TimeCard.N3BLCD,&#xA;	R_TimeCard.N3BCNB,&#xA;	R_TimeCard.N3S3NB,&#xA;	R_TimeCard.N3FPDT,&#xA;	R_TimeCard.N3Y2NB,&#xA;	R_TimeCard.N3UASU,&#xA;	R_TimeCard.N3PHNB &#xA;from R_TimeCard" type="V_String" />
+            <Field name="N3SMCD" size="6" source="File: aka:Shop|||select R_TimeCard.N3C9NB,&#xA;	R_TimeCard.N3FJDT,&#xA;	R_TimeCard.N3BATM,&#xA;	R_TimeCard.N3S4CD,&#xA;	R_TimeCard.N3B3DT,&#xA;	R_TimeCard.N3AETM,&#xA;	R_TimeCard.N3FNDT,&#xA;	R_TimeCard.N3AFTM,&#xA;	R_TimeCard.N3PRST,&#xA;	R_TimeCard.N3PSST,&#xA;	R_TimeCard.N3PTST,&#xA;	R_TimeCard.N3S3CD,&#xA;	R_TimeCard.N3SMCD,&#xA;	R_TimeCard.N3S5CD,&#xA;	R_TimeCard.N3SVCD,&#xA;	R_TimeCard.N3YENB,&#xA;	R_TimeCard.N3BLCD,&#xA;	R_TimeCard.N3BCNB,&#xA;	R_TimeCard.N3S3NB,&#xA;	R_TimeCard.N3FPDT,&#xA;	R_TimeCard.N3Y2NB,&#xA;	R_TimeCard.N3UASU,&#xA;	R_TimeCard.N3PHNB &#xA;from R_TimeCard" type="V_String" />
+            <Field name="N3S5CD" size="3" source="File: aka:Shop|||select R_TimeCard.N3C9NB,&#xA;	R_TimeCard.N3FJDT,&#xA;	R_TimeCard.N3BATM,&#xA;	R_TimeCard.N3S4CD,&#xA;	R_TimeCard.N3B3DT,&#xA;	R_TimeCard.N3AETM,&#xA;	R_TimeCard.N3FNDT,&#xA;	R_TimeCard.N3AFTM,&#xA;	R_TimeCard.N3PRST,&#xA;	R_TimeCard.N3PSST,&#xA;	R_TimeCard.N3PTST,&#xA;	R_TimeCard.N3S3CD,&#xA;	R_TimeCard.N3SMCD,&#xA;	R_TimeCard.N3S5CD,&#xA;	R_TimeCard.N3SVCD,&#xA;	R_TimeCard.N3YENB,&#xA;	R_TimeCard.N3BLCD,&#xA;	R_TimeCard.N3BCNB,&#xA;	R_TimeCard.N3S3NB,&#xA;	R_TimeCard.N3FPDT,&#xA;	R_TimeCard.N3Y2NB,&#xA;	R_TimeCard.N3UASU,&#xA;	R_TimeCard.N3PHNB &#xA;from R_TimeCard" type="V_String" />
+            <Field name="N3SVCD" size="7" source="File: aka:Shop|||select R_TimeCard.N3C9NB,&#xA;	R_TimeCard.N3FJDT,&#xA;	R_TimeCard.N3BATM,&#xA;	R_TimeCard.N3S4CD,&#xA;	R_TimeCard.N3B3DT,&#xA;	R_TimeCard.N3AETM,&#xA;	R_TimeCard.N3FNDT,&#xA;	R_TimeCard.N3AFTM,&#xA;	R_TimeCard.N3PRST,&#xA;	R_TimeCard.N3PSST,&#xA;	R_TimeCard.N3PTST,&#xA;	R_TimeCard.N3S3CD,&#xA;	R_TimeCard.N3SMCD,&#xA;	R_TimeCard.N3S5CD,&#xA;	R_TimeCard.N3SVCD,&#xA;	R_TimeCard.N3YENB,&#xA;	R_TimeCard.N3BLCD,&#xA;	R_TimeCard.N3BCNB,&#xA;	R_TimeCard.N3S3NB,&#xA;	R_TimeCard.N3FPDT,&#xA;	R_TimeCard.N3Y2NB,&#xA;	R_TimeCard.N3UASU,&#xA;	R_TimeCard.N3PHNB &#xA;from R_TimeCard" type="V_String" />
+            <Field name="N3YENB" size="6" source="File: aka:Shop|||select R_TimeCard.N3C9NB,&#xA;	R_TimeCard.N3FJDT,&#xA;	R_TimeCard.N3BATM,&#xA;	R_TimeCard.N3S4CD,&#xA;	R_TimeCard.N3B3DT,&#xA;	R_TimeCard.N3AETM,&#xA;	R_TimeCard.N3FNDT,&#xA;	R_TimeCard.N3AFTM,&#xA;	R_TimeCard.N3PRST,&#xA;	R_TimeCard.N3PSST,&#xA;	R_TimeCard.N3PTST,&#xA;	R_TimeCard.N3S3CD,&#xA;	R_TimeCard.N3SMCD,&#xA;	R_TimeCard.N3S5CD,&#xA;	R_TimeCard.N3SVCD,&#xA;	R_TimeCard.N3YENB,&#xA;	R_TimeCard.N3BLCD,&#xA;	R_TimeCard.N3BCNB,&#xA;	R_TimeCard.N3S3NB,&#xA;	R_TimeCard.N3FPDT,&#xA;	R_TimeCard.N3Y2NB,&#xA;	R_TimeCard.N3UASU,&#xA;	R_TimeCard.N3PHNB &#xA;from R_TimeCard" type="V_String" />
+            <Field name="N3BLCD" scale="0" size="30" source="File: aka:Shop|||select R_TimeCard.N3C9NB,&#xA;	R_TimeCard.N3FJDT,&#xA;	R_TimeCard.N3BATM,&#xA;	R_TimeCard.N3S4CD,&#xA;	R_TimeCard.N3B3DT,&#xA;	R_TimeCard.N3AETM,&#xA;	R_TimeCard.N3FNDT,&#xA;	R_TimeCard.N3AFTM,&#xA;	R_TimeCard.N3PRST,&#xA;	R_TimeCard.N3PSST,&#xA;	R_TimeCard.N3PTST,&#xA;	R_TimeCard.N3S3CD,&#xA;	R_TimeCard.N3SMCD,&#xA;	R_TimeCard.N3S5CD,&#xA;	R_TimeCard.N3SVCD,&#xA;	R_TimeCard.N3YENB,&#xA;	R_TimeCard.N3BLCD,&#xA;	R_TimeCard.N3BCNB,&#xA;	R_TimeCard.N3S3NB,&#xA;	R_TimeCard.N3FPDT,&#xA;	R_TimeCard.N3Y2NB,&#xA;	R_TimeCard.N3UASU,&#xA;	R_TimeCard.N3PHNB &#xA;from R_TimeCard" type="FixedDecimal" />
+            <Field name="N3BCNB" scale="0" size="30" source="File: aka:Shop|||select R_TimeCard.N3C9NB,&#xA;	R_TimeCard.N3FJDT,&#xA;	R_TimeCard.N3BATM,&#xA;	R_TimeCard.N3S4CD,&#xA;	R_TimeCard.N3B3DT,&#xA;	R_TimeCard.N3AETM,&#xA;	R_TimeCard.N3FNDT,&#xA;	R_TimeCard.N3AFTM,&#xA;	R_TimeCard.N3PRST,&#xA;	R_TimeCard.N3PSST,&#xA;	R_TimeCard.N3PTST,&#xA;	R_TimeCard.N3S3CD,&#xA;	R_TimeCard.N3SMCD,&#xA;	R_TimeCard.N3S5CD,&#xA;	R_TimeCard.N3SVCD,&#xA;	R_TimeCard.N3YENB,&#xA;	R_TimeCard.N3BLCD,&#xA;	R_TimeCard.N3BCNB,&#xA;	R_TimeCard.N3S3NB,&#xA;	R_TimeCard.N3FPDT,&#xA;	R_TimeCard.N3Y2NB,&#xA;	R_TimeCard.N3UASU,&#xA;	R_TimeCard.N3PHNB &#xA;from R_TimeCard" type="FixedDecimal" />
+            <Field name="N3S3NB" scale="0" size="30" source="File: aka:Shop|||select R_TimeCard.N3C9NB,&#xA;	R_TimeCard.N3FJDT,&#xA;	R_TimeCard.N3BATM,&#xA;	R_TimeCard.N3S4CD,&#xA;	R_TimeCard.N3B3DT,&#xA;	R_TimeCard.N3AETM,&#xA;	R_TimeCard.N3FNDT,&#xA;	R_TimeCard.N3AFTM,&#xA;	R_TimeCard.N3PRST,&#xA;	R_TimeCard.N3PSST,&#xA;	R_TimeCard.N3PTST,&#xA;	R_TimeCard.N3S3CD,&#xA;	R_TimeCard.N3SMCD,&#xA;	R_TimeCard.N3S5CD,&#xA;	R_TimeCard.N3SVCD,&#xA;	R_TimeCard.N3YENB,&#xA;	R_TimeCard.N3BLCD,&#xA;	R_TimeCard.N3BCNB,&#xA;	R_TimeCard.N3S3NB,&#xA;	R_TimeCard.N3FPDT,&#xA;	R_TimeCard.N3Y2NB,&#xA;	R_TimeCard.N3UASU,&#xA;	R_TimeCard.N3PHNB &#xA;from R_TimeCard" type="FixedDecimal" />
+            <Field name="N3FPDT" scale="0" size="30" source="File: aka:Shop|||select R_TimeCard.N3C9NB,&#xA;	R_TimeCard.N3FJDT,&#xA;	R_TimeCard.N3BATM,&#xA;	R_TimeCard.N3S4CD,&#xA;	R_TimeCard.N3B3DT,&#xA;	R_TimeCard.N3AETM,&#xA;	R_TimeCard.N3FNDT,&#xA;	R_TimeCard.N3AFTM,&#xA;	R_TimeCard.N3PRST,&#xA;	R_TimeCard.N3PSST,&#xA;	R_TimeCard.N3PTST,&#xA;	R_TimeCard.N3S3CD,&#xA;	R_TimeCard.N3SMCD,&#xA;	R_TimeCard.N3S5CD,&#xA;	R_TimeCard.N3SVCD,&#xA;	R_TimeCard.N3YENB,&#xA;	R_TimeCard.N3BLCD,&#xA;	R_TimeCard.N3BCNB,&#xA;	R_TimeCard.N3S3NB,&#xA;	R_TimeCard.N3FPDT,&#xA;	R_TimeCard.N3Y2NB,&#xA;	R_TimeCard.N3UASU,&#xA;	R_TimeCard.N3PHNB &#xA;from R_TimeCard" type="FixedDecimal" />
+            <Field name="N3Y2NB" scale="0" size="30" source="File: aka:Shop|||select R_TimeCard.N3C9NB,&#xA;	R_TimeCard.N3FJDT,&#xA;	R_TimeCard.N3BATM,&#xA;	R_TimeCard.N3S4CD,&#xA;	R_TimeCard.N3B3DT,&#xA;	R_TimeCard.N3AETM,&#xA;	R_TimeCard.N3FNDT,&#xA;	R_TimeCard.N3AFTM,&#xA;	R_TimeCard.N3PRST,&#xA;	R_TimeCard.N3PSST,&#xA;	R_TimeCard.N3PTST,&#xA;	R_TimeCard.N3S3CD,&#xA;	R_TimeCard.N3SMCD,&#xA;	R_TimeCard.N3S5CD,&#xA;	R_TimeCard.N3SVCD,&#xA;	R_TimeCard.N3YENB,&#xA;	R_TimeCard.N3BLCD,&#xA;	R_TimeCard.N3BCNB,&#xA;	R_TimeCard.N3S3NB,&#xA;	R_TimeCard.N3FPDT,&#xA;	R_TimeCard.N3Y2NB,&#xA;	R_TimeCard.N3UASU,&#xA;	R_TimeCard.N3PHNB &#xA;from R_TimeCard" type="FixedDecimal" />
+            <Field name="N3UASU" size="2" source="File: aka:Shop|||select R_TimeCard.N3C9NB,&#xA;	R_TimeCard.N3FJDT,&#xA;	R_TimeCard.N3BATM,&#xA;	R_TimeCard.N3S4CD,&#xA;	R_TimeCard.N3B3DT,&#xA;	R_TimeCard.N3AETM,&#xA;	R_TimeCard.N3FNDT,&#xA;	R_TimeCard.N3AFTM,&#xA;	R_TimeCard.N3PRST,&#xA;	R_TimeCard.N3PSST,&#xA;	R_TimeCard.N3PTST,&#xA;	R_TimeCard.N3S3CD,&#xA;	R_TimeCard.N3SMCD,&#xA;	R_TimeCard.N3S5CD,&#xA;	R_TimeCard.N3SVCD,&#xA;	R_TimeCard.N3YENB,&#xA;	R_TimeCard.N3BLCD,&#xA;	R_TimeCard.N3BCNB,&#xA;	R_TimeCard.N3S3NB,&#xA;	R_TimeCard.N3FPDT,&#xA;	R_TimeCard.N3Y2NB,&#xA;	R_TimeCard.N3UASU,&#xA;	R_TimeCard.N3PHNB &#xA;from R_TimeCard" type="V_String" />
+            <Field name="N3PHNB" scale="0" size="30" source="File: aka:Shop|||select R_TimeCard.N3C9NB,&#xA;	R_TimeCard.N3FJDT,&#xA;	R_TimeCard.N3BATM,&#xA;	R_TimeCard.N3S4CD,&#xA;	R_TimeCard.N3B3DT,&#xA;	R_TimeCard.N3AETM,&#xA;	R_TimeCard.N3FNDT,&#xA;	R_TimeCard.N3AFTM,&#xA;	R_TimeCard.N3PRST,&#xA;	R_TimeCard.N3PSST,&#xA;	R_TimeCard.N3PTST,&#xA;	R_TimeCard.N3S3CD,&#xA;	R_TimeCard.N3SMCD,&#xA;	R_TimeCard.N3S5CD,&#xA;	R_TimeCard.N3SVCD,&#xA;	R_TimeCard.N3YENB,&#xA;	R_TimeCard.N3BLCD,&#xA;	R_TimeCard.N3BCNB,&#xA;	R_TimeCard.N3S3NB,&#xA;	R_TimeCard.N3FPDT,&#xA;	R_TimeCard.N3Y2NB,&#xA;	R_TimeCard.N3UASU,&#xA;	R_TimeCard.N3PHNB &#xA;from R_TimeCard" type="FixedDecimal" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1530" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\2. Source Data Used Within Enrich Maintenance Workflow\TimeCard_10232020.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>TimeCard_10232020.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="270" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thomasa\AppData\Local\Temp\Engine_9736_097bde63436d440e99d7a560cf1cb434_\Engine_10884_aee760a2cb6345a9b26d8565f60d76ba_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="186" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="402" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="474" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thomasa\AppData\Local\Temp\Engine_9736_097bde63436d440e99d7a560cf1cb434_\Engine_10884_151477e7aab9457ebac9e1fb7869ce59_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="618" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Work Order Number" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Work Order Number - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="714" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thomasa\AppData\Local\Temp\Engine_9736_097bde63436d440e99d7a560cf1cb434_\Engine_10884_c9357f4a78e64b8882eef1769bf6b920_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="486" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Employee Number</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-10-29 11:20:32</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2020-10-29 11:20:32</StartDate>
+              <EndDate>2020-10-29 11:20:32</EndDate>
+              <Operand>6950</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Employee Number] = 6950</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="294" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="N3C9NB" selected="True" rename="Employee Number" type="V_String" size="30" />
+            <SelectField field="N3FJDT" selected="True" rename="Actual Shift Start Date" type="V_String" size="30" />
+            <SelectField field="N3BATM" selected="True" rename="Actual Shift Start Time" type="V_String" size="30" />
+            <SelectField field="N3S4CD" selected="True" rename="Sequence Number" type="V_String" size="30" />
+            <SelectField field="N3B3DT" selected="True" rename="Actual Task Start Date" type="V_String" size="30" />
+            <SelectField field="N3AETM" selected="True" rename="Actual Task Start Time" type="V_String" size="30" />
+            <SelectField field="N3FNDT" selected="True" rename="Actual Task Stop Date" type="V_String" size="30" />
+            <SelectField field="N3AFTM" selected="True" rename="Actual Task Stop Time" type="V_String" size="30" />
+            <SelectField field="N3PRST" selected="True" rename="Post To Payroll Sts" />
+            <SelectField field="N3PSST" selected="True" rename="Post To Employee Book Sts" />
+            <SelectField field="N3PTST" selected="True" rename="Post To Work Order Sts" />
+            <SelectField field="N3S3CD" selected="True" rename="Task Status Code" />
+            <SelectField field="N3SMCD" selected="True" rename="Job Classification Code" />
+            <SelectField field="N3S5CD" selected="True" rename="Relief Empl Reason Code" />
+            <SelectField field="N3SVCD" selected="True" rename="Establishment Code" />
+            <SelectField field="N3YENB" selected="True" rename="Indirect Labor Code" />
+            <SelectField field="N3BLCD" selected="True" rename="Work Order Number" type="V_String" size="30" />
+            <SelectField field="N3BCNB" selected="True" rename="Work Order Line Number" type="V_String" size="30" />
+            <SelectField field="N3S3NB" selected="True" rename="Time Sequence" type="V_String" size="30" />
+            <SelectField field="N3FPDT" selected="True" rename="Processing Date" type="V_String" size="30" />
+            <SelectField field="N3Y2NB" selected="True" rename="Processing Date Sequence" type="V_String" size="30" />
+            <SelectField field="N3UASU" selected="True" rename="Comment NNC Header Type" />
+            <SelectField field="N3PHNB" selected="True" rename="Comment Code" type="V_String" size="30" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="570" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Left([Actual Shift Start Date], 1)+&quot;-&quot;+Substring([Actual Shift Start Date],1,2)+&quot;/&quot;+Substring([Actual Shift Start Date],3,2)+&quot;/&quot;+Substring([Actual Shift Start Date],5,2)" field="Actual Shift Start Date" size="30" type="V_String" />
+            <FormulaField expression="Left([Actual Task Start Date], 1)+&quot;-&quot;+Substring([Actual Task Start Date],1,2)+&quot;/&quot;+Substring([Actual Task Start Date],3,2)+&quot;/&quot;+Substring([Actual Task Start Date],5,2)" field="Actual Task Start Date" size="30" type="V_String" />
+            <FormulaField expression="Left([Actual Task Stop Date], 1)+&quot;-&quot;+Substring([Actual Task Stop Date],1,2)+&quot;/&quot;+Substring([Actual Task Stop Date],3,2)+&quot;/&quot;+Substring([Actual Task Stop Date],5,2)" field="Actual Task Stop Date" size="30" type="V_String" />
+            <FormulaField expression="IF Length([Actual Shift Start Time])=4 THEN &quot;00:&quot;+Substring([Actual Shift Start Time],0,2) + &quot;:&quot; + Substring([Actual Shift Start Time],2,2) ELSE IF Length([Actual Shift Start Time])=3 THEN &quot;00:0&quot;+Substring([Actual Shift Start Time],0,1) + &quot;:&quot; + Substring([Actual Shift Start Time],1,2) ELSE IF Length([Actual Shift Start Time])=2 THEN &quot;00:00:&quot;+Substring([Actual Shift Start Time],0,2) ELSE IF Length([Actual Shift Start Time])=1 THEN &quot;00:00:0&quot;+Substring([Actual Shift Start Time],0,1) ELSE IF [Actual Shift Start Time]=&quot;240000&quot; THEN &quot;23:59:59&quot; ELSE IF [Actual Shift Start Time]=&quot;0&quot; THEN &quot;00:00:01&quot; ELSE IF Length([Actual Shift Start Time])=6 THEN Substring([Actual Shift Start Time],0,2)+&quot;:&quot;+Substring([Actual Shift Start Time],2,2)+&quot;:&quot;+Substring([Actual Shift Start Time],4,2) ELSE &quot;0&quot;+Substring([Actual Shift Start Time],0,1)+&quot;:&quot;+Substring([Actual Shift Start Time],1,2)+&quot;:&quot;+Substring([Actual Shift Start Time],3,2) ENDIF ENDIF ENDIF ENDIF ENDIF ENDIF ENDIF" field="Actual_Shift_Start_Time" size="8" type="Time" />
+            <FormulaField expression="IF Length([Actual Task Start Time])=4 THEN &quot;00:&quot;+Substring([Actual Task Start Time],0,2) + &quot;:&quot; + Substring([Actual Task Start Time],2,2) ELSE IF Length([Actual Task Start Time])=3 THEN &quot;00:0&quot;+Substring([Actual Task Start Time],0,1) + &quot;:&quot; + Substring([Actual Task Start Time],1,2) ELSE IF Length([Actual Task Start Time])=2 THEN &quot;00:00:&quot;+Substring([Actual Task Start Time],0,2) ELSE IF Length([Actual Task Start Time])=1 THEN &quot;00:00:0&quot;+Substring([Actual Task Start Time],0,1) ELSE IF [Actual Task Start Time]=&quot;240000&quot; THEN &quot;23:59:59&quot; ELSE IF [Actual Task Start Time]=&quot;0&quot; THEN &quot;00:00:01&quot; ELSE IF Length([Actual Task Start Time])=6 THEN Substring([Actual Task Start Time],0,2)+&quot;:&quot;+Substring([Actual Task Start Time],2,2)+&quot;:&quot;+Substring([Actual Task Start Time],4,2) ELSE &quot;0&quot;+ Substring([Actual Task Start Time],0,1)+&quot;:&quot;+Substring([Actual Task Start Time],1,2)+&quot;:&quot;+Substring([Actual Task Start Time],3,2) ENDIF ENDIF ENDIF ENDIF ENDIF ENDIF ENDIF" field="Actual_Task_Start_Time" size="8" type="Time" />
+            <FormulaField expression="IF Length([Actual Task Stop Time])=4 THEN &quot;00:&quot;+Substring([Actual Task Stop Time],0,2) + &quot;:&quot; + Substring([Actual Task Stop Time],2,2) ELSE IF Length([Actual Task Stop Time])=3 THEN &quot;00:0&quot;+Substring([Actual Task Stop Time],0,1) + &quot;:&quot; + Substring([Actual Task Stop Time],1,2) ELSE IF Length([Actual Task Stop Time])=2 THEN &quot;00:00:&quot;+Substring([Actual Task Stop Time],0,2) ELSE IF Length([Actual Task Stop Time])=1 THEN &quot;00:00:0&quot;+Substring([Actual Task Stop Time],0,1) ELSE IF [Actual Task Stop Time]=&quot;240000&quot; THEN &quot;23:59:59&quot; ELSE IF [Actual Task Stop Time]=&quot;0&quot; THEN &quot;00:00:01&quot; ELSE IF Length([Actual Task Stop Time])=6 THEN Substring([Actual Task Stop Time],0,2)+&quot;:&quot;+Substring([Actual Task Stop Time],2,2)+&quot;:&quot;+Substring([Actual Task Stop Time],4,2) ELSE &quot;0&quot;+ Substring([Actual Task Stop Time],0,1)+&quot;:&quot;+Substring([Actual Task Stop Time],1,2)+&quot;:&quot;+Substring([Actual Task Stop Time],3,2) ENDIF  ENDIF ENDIF ENDIF ENDIF ENDIF ENDIF" field="Actual_Task_Stop_Time" size="8" type="Time" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Actual Shift Start Date = Left([Actual Shift Start Date], 1)+"-"+Substring([Actu...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="666" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Actual Shift Start Date</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Actual Shift Start Date</RootName>
+          <Delimeters value="-" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="666" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thomasa\AppData\Local\Temp\Engine_9736_097bde63436d440e99d7a560cf1cb434_\Engine_10884_10bbbb4b6e0d4f77a6968893016bafc9_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="762" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thomasa\AppData\Local\Temp\Engine_9736_097bde63436d440e99d7a560cf1cb434_\Engine_10884_368761cef9334888b4f69cea15b6cbe4_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="762" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Actual Shift Start Date2</InputFieldName>
+          <Language>English</Language>
+          <Format>yy/MM/dd</Format>
+          <OutputFieldName>Actual Shift Start Date</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Actual Shift Start Date2 From:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="846" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thomasa\AppData\Local\Temp\Engine_9736_097bde63436d440e99d7a560cf1cb434_\Engine_10884_0ef8d6f7ea654aac9328d70d6a7cb475_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1350" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Employee Number" selected="True" />
+            <SelectField field="Actual Shift Start Date3" selected="True" rename="Actual Shift Start Date" />
+            <SelectField field="Actual Shift Start Date" selected="False" />
+            <SelectField field="Actual_Shift_Start_Time" selected="True" />
+            <SelectField field="Actual Shift Start Time" selected="False" />
+            <SelectField field="Sequence Number" selected="True" />
+            <SelectField field="Actual Task Start Date" selected="False" />
+            <SelectField field="Actual Task Start Date3" selected="True" rename="Actual Task Start Date" />
+            <SelectField field="Actual Task Start Time" selected="False" />
+            <SelectField field="Actual_Task_Start_Time" selected="True" />
+            <SelectField field="Actual Task Stop Date" selected="False" />
+            <SelectField field="Actual Task Stop Date3" selected="True" rename="Actual Task Stop Date" />
+            <SelectField field="Actual Task Stop Time" selected="False" />
+            <SelectField field="Actual_Task_Stop_Time" selected="True" />
+            <SelectField field="Post To Payroll Sts" selected="True" />
+            <SelectField field="Post To Employee Book Sts" selected="True" />
+            <SelectField field="Post To Work Order Sts" selected="True" />
+            <SelectField field="Task Status Code" selected="True" />
+            <SelectField field="Job Classification Code" selected="True" />
+            <SelectField field="Relief Empl Reason Code" selected="True" />
+            <SelectField field="Establishment Code" selected="True" />
+            <SelectField field="Indirect Labor Code" selected="True" />
+            <SelectField field="Work Order Number" selected="True" />
+            <SelectField field="Work Order Line Number" selected="True" />
+            <SelectField field="Time Sequence" selected="True" />
+            <SelectField field="Processing Date" selected="True" />
+            <SelectField field="Processing Date Sequence" selected="True" />
+            <SelectField field="Comment NNC Header Type" selected="True" />
+            <SelectField field="Comment Code" selected="True" />
+            <SelectField field="Actual Shift Start Date1" selected="False" />
+            <SelectField field="Actual Shift Start Date2" selected="False" />
+            <SelectField field="Actual Task Start Date1" selected="False" />
+            <SelectField field="Actual Task Start Date2" selected="False" />
+            <SelectField field="Actual Task Stop Date1" selected="False" />
+            <SelectField field="Actual Task Stop Date2" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="894" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Actual Task Start Date</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Actual Task Start Date</RootName>
+          <Delimeters value="-" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="990" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Actual Task Start Date2</InputFieldName>
+          <Language>English</Language>
+          <Format>yy/MM/dd</Format>
+          <OutputFieldName>Actual Task Start Date</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Actual Task Start Date2 From:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="1110" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Actual Task Stop Date</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Actual Task Stop Date</RootName>
+          <Delimeters value="-" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="1206" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Actual Task Stop Date2</InputFieldName>
+          <Language>English</Language>
+          <Format>yy/MM/dd</Format>
+          <OutputFieldName>Actual Task Stop Date</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Actual Task Stop Date2 From:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1434" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thomasa\AppData\Local\Temp\Engine_9736_097bde63436d440e99d7a560cf1cb434_\Engine_10884_41370add8f6c432aa4a40999534445cc_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="450" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Enrich Data (TimeCard) Pull to CSV v.2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
