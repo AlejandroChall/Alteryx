@@ -1,0 +1,768 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="198" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Enrich Component Output.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="WO" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WOLine" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WOLDate" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="LineStatus" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="Reason" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="ActHours" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="EstHours" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="LabourCost" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="PartsCost" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="OtherCost" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="PrimSystCd" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="SubSystCd" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="SubCompCd" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="TaskCode" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="EmployCd" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="MonYear" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="QuartYear" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="TotalCost" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="PrimSystDesc" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="SubSystDesc" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="SubCompDesc" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="TaskDesc" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WorkOrderLineDate" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="FacilityCD" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="FacilityshName" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="UnitNo" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="DeptCD" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="SubSysKey" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="SubCompKey" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="T20_PS_Flag" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WO_WOLine" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="BR_Flag" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="TP_GrossAmt" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="EStatus" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="EYear" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="EOwner" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="EGroup" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="EManuf" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="EModel" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="EType" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="L10_EYear" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="E_CompanyID" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="E_Division" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WtyFlag" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WtyClaimNo" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WtyStatus" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WtyTotalCost" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WtyLabourTime" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WtyCD" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="T10_Manuf_Flag" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="AccActHours_SS" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="AccEstHours_SS" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="AccLabourCost_SS" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="AccPartsCost_SS" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="AccOtherCost_SS" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="AccTotalCost_SS" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="AccUnitMiles_WODate" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="T10_Group_Flag" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="AccActHours_PS" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="AccEstHours_PS" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="AccLabourCost_PS" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="AccPartsCost_PS" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="AccOtherCost_PS" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="AccTotalCost_PS" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WtyZeroDollar_Flag" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="PM_Flag" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="BR_FACBR_Flag" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="BR_FACBR_Cost" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="EmployeeNum" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="TimeCardHrs" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="Emp_Make_Percent_Grp" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="Emp_Make_Category" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="UnitType" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="FullSysTaskKey" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="FullSysTaskDesc" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="ReasonGrp" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="FullSysTaskRsnKey" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="FullSysTaskRsnDesc" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WO_OpenDate" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WO_CloseDate" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="T10_PS_Flag" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WO_ApprovedDate" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="E_CoDivKey" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="EOwner_Flag" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WorkOrderLineTime" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WOLTime" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WO_OpenTime" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WO_CloseTime" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="T20_GroupCode" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="Plan_AvgHours" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="Plan_PartsCost" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="Plan_OtherCost" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="Plan_TotalCost" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="Plan_LabourCost" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="PO#" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="TP_WOLine" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="TP_VendorKey" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="Companyid" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="Rdivision" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="DateInService" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="PartFailureCode" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="ReasonDesc" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="BillableFlag" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="ProjectCode" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="DrvrMgr" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="FleetMgr" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="CDivision" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="SBU" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WO_OpenDate1" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WO_OpenTime1" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WO_CloseDate1" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WO_CloseTime1" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WO_DateTime_Opened" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WO_DateTime_Closed" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="Time In Shop - Duration" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="Labour_Cost" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="Total_Cost_mod" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WO_Type" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="Labour_Cost_Compare" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+            <Field name="WO_Month" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Enrich Component Output.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="198" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Odometer Component Output.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Unit_" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+            <Field name="In_Service_Date" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+            <Field name="Model_Year" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+            <Field name="Date_Reading" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+            <Field name="Date_Delta" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+            <Field name="Odometer" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+            <Field name="Delta" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+            <Field name="Machine_Capacity_Miles" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+            <Field name="Odometer_Original" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+            <Field name="Years_In_Service" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+            <Field name="Unit_Year" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+            <Field name="Term_Date" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+            <Field name="Theo_Capacity_YIS" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+            <Field name="Theo_Capactiy_UY" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+            <Field name="Flag_Count" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+            <Field name="YEAR_MTH" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+            <Field name="YEAR_CUTOFF" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+            <Field name="unown" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+            <Field name="TRANSFER" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+            <Field name="TYPE" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+            <Field name="Years_In_Service_Round" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+            <Field name="Odometer_Round" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+            <Field name="Min_Odometer" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+            <Field name="Max_Odometer" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\-PROJECTS-\FY 20\Road to 91OR\Maintenance Hypothesis Project (Pre-PdM)\1. Main Alteryx Workflow\Odometer Component Output.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="342" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Unit_</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-12-16 15:33:44</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>62619</Operand>
+              <StartDate>2020-12-16 15:33:44</StartDate>
+              <EndDate>2020-12-16 15:33:44</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Unit_] = "62619"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="318" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>UnitNo</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-12-16 15:34:17</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2020-12-16 15:34:17</StartDate>
+              <EndDate>2020-12-16 15:34:17</EndDate>
+              <Operand>62619</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[UnitNo] = "62619"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="474" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thomasa\AppData\Local\Temp\Engine_8448_c204847a942a49879f89ce7c2014c1ac_\Engine_8292_8f1bf85c4ba54c60b2354d00c0ec6a67_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="498" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thomasa\AppData\Local\Temp\Engine_8448_c204847a942a49879f89ce7c2014c1ac_\Engine_8292_bff7ac6169514df9b74e1a40196ed691_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="210" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">L:\TrafficPricing\Private\(YIELD)\ISAAC Data Dump\DTC for TCO\CSV\*.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>7</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>*.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Vehicle No" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\ISAAC Data Dump\DTC for TCO\CSV\*.csv" type="V_WString" />
+            <Field name="Vehicle Type" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\ISAAC Data Dump\DTC for TCO\CSV\*.csv" type="V_WString" />
+            <Field name="Engine Type" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\ISAAC Data Dump\DTC for TCO\CSV\*.csv" type="V_WString" />
+            <Field name="Fault Count" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\ISAAC Data Dump\DTC for TCO\CSV\*.csv" type="V_WString" />
+            <Field name="Last Fault" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\ISAAC Data Dump\DTC for TCO\CSV\*.csv" type="V_WString" />
+            <Field name="Protocol" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\ISAAC Data Dump\DTC for TCO\CSV\*.csv" type="V_WString" />
+            <Field name="Trouble Code" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\ISAAC Data Dump\DTC for TCO\CSV\*.csv" type="V_WString" />
+            <Field name="Description" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\ISAAC Data Dump\DTC for TCO\CSV\*.csv" type="V_WString" />
+            <Field name="Occurred On" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\ISAAC Data Dump\DTC for TCO\CSV\*.csv" type="V_WString" />
+            <Field name="Duration (h:mm:ss)" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\ISAAC Data Dump\DTC for TCO\CSV\*.csv" type="V_WString" />
+            <Field name="Odometer Start (mi)" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\ISAAC Data Dump\DTC for TCO\CSV\*.csv" type="V_WString" />
+            <Field name="Distance (mi)" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\ISAAC Data Dump\DTC for TCO\CSV\*.csv" type="V_WString" />
+            <Field name="Speed (mph)" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\ISAAC Data Dump\DTC for TCO\CSV\*.csv" type="V_WString" />
+            <Field name="RPM" size="254" source="File: L:\TrafficPricing\Private\(YIELD)\ISAAC Data Dump\DTC for TCO\CSV\*.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="318" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thomasa\AppData\Local\Temp\Engine_8448_c204847a942a49879f89ce7c2014c1ac_\Engine_8292_49ada73186e34b8980f7b4bf649916b2_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="366" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Vehicle No</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-12-16 15:46:35</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2020-12-16 15:46:35</StartDate>
+              <EndDate>2020-12-16 15:46:35</EndDate>
+              <Operand>62619</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Vehicle No] = "62619"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="486" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thomasa\AppData\Local\Temp\Engine_8448_c204847a942a49879f89ce7c2014c1ac_\Engine_8292_682747ed668d4dbab5e01fb7e2e76dfa_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1146" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="UnitNo" action="GroupBy" rename="UnitNo" />
+            <SummarizeField field="WO_Type" action="GroupBy" rename="WO_Type" />
+            <SummarizeField field="PrimSystDesc" action="GroupBy" rename="PrimSystDesc" />
+            <SummarizeField field="Reason" action="Count" rename="Count" />
+            <SummarizeField field="TotalCost" action="Sum" rename="Sum_TotalCost" />
+            <SummarizeField field="FacilityCD" action="GroupBy" rename="FacilityCD" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="438" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="TaskCode" selected="True" type="Double" size="8" />
+            <SelectField field="TotalCost" selected="True" type="Double" size="8" />
+            <SelectField field="WO_Month" selected="True" type="Date" size="10" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1242" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thomasa\AppData\Local\Temp\Engine_8448_c204847a942a49879f89ce7c2014c1ac_\Engine_8292_999faefcfae144d68102678ad40885c0_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="534" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&lt;</Operator>
+            <Field>WO_Month</Field>
+            <Operands>
+              <PeriodDate>2020-12-16 16:35:17</PeriodDate>
+              <PeriodType>days</PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2020-12-16 16:35:17</StartDate>
+              <EndDate>2020-12-16 16:35:17</EndDate>
+              <Operand>2020-10-01</Operand>
+              <DateType>fixed</DateType>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[WO_Month] &lt; "2020-10-01"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="810" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[PrimSystCd] = "063"
+OR
+[PrimSystCd] = "017"
+OR
+[PrimSystCd] = "MVA"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[PrimSystCd] = "063"
+OR
+[PrimSystCd] = "017"
+OR
+[PrimSystCd] = "MVA"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="942" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[PrimSystDesc] = "DRIVERS REPORT"
+OR
+[PrimSystDesc] = "COMM UPDATE"
+OR
+[PrimSystDesc] = "FUEL ISLAND TRL INSPECT"
+OR
+[PrimSystDesc] ="TRUCK WASH"
+OR
+[PrimSystDesc] = "TRL LOAD MODIFICATION"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[PrimSystDesc] = "DRIVERS REPORT"
+OR
+[PrimSystDesc] = "COMM UPDATE"
+OR
+[PrimSyst...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1062" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Reason] = "032"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Reason] = "032"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1206" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="FacilityCD" action="GroupBy" rename="FacilityCD" />
+            <SummarizeField field="TotalCost" action="Count" rename="Count" />
+            <SummarizeField field="TotalCost" action="Sum" rename="Sum_TotalCost" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="True" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="True" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="True" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="True" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="True" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="False" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="False" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="False" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="False" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Source Exploration</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
