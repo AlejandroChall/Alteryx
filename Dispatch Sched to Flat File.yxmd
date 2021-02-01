@@ -1,0 +1,2919 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="56">L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>4</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Copy of Dispatch - MC V2 (DD Ramp Up).xlsm
+Query=`DISPTCH CO$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Carrier" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="Route" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="Start" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="F4" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="Carrier2" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="Route2" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="Start2" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="F8" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="Carrier3" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="Route3" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="Start3" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="Time" />
+            <Field name="F12" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="Carrier4" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="Route4" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="Start4" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="Time" />
+            <Field name="F16" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="Carrier5" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="Route5" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="Start5" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="F20" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="Carrier6" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="Route6" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="Start6" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="F24" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="Carrier7" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="Route7" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="Start7" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="F28" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="V_String" />
+            <Field name="F29" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="Double" />
+            <Field name="F30" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="Double" />
+            <Field name="F31" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\Copy of Dispatch - MC V2 (DD Ramp Up).xlsm|||`DISPTCH CO$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="222" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Carrier" selected="True" />
+            <SelectField field="Route" selected="True" />
+            <SelectField field="Start" selected="True" />
+            <SelectField field="F4" selected="True" rename="Period" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="378" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Carrier</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2019-07-26 15:07:27</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>CMF</Operand>
+              <StartDate>2019-07-26 15:07:27</StartDate>
+              <EndDate>2019-07-26 15:07:27</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Carrier] = "CMF"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="56">L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\2020_P03\P03 LoadGen V.2.xlsm|||`20P03 Flat File LC$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>P03 LoadGen V.2.xlsm
+Query=`20P03 Flat File LC$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CrossDock" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\2020_P03\P03 LoadGen V.2.xlsm|||`20P03 Flat File LC$`" type="V_String" />
+            <Field name="LP" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\2020_P03\P03 LoadGen V.2.xlsm|||`20P03 Flat File LC$`" type="V_String" />
+            <Field name="Route" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\2020_P03\P03 LoadGen V.2.xlsm|||`20P03 Flat File LC$`" type="V_String" />
+            <Field name="RouteMileage" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\2020_P03\P03 LoadGen V.2.xlsm|||`20P03 Flat File LC$`" type="V_String" />
+            <Field name="Leg Miles" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\2020_P03\P03 LoadGen V.2.xlsm|||`20P03 Flat File LC$`" type="V_String" />
+            <Field name="Stops" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\2020_P03\P03 LoadGen V.2.xlsm|||`20P03 Flat File LC$`" type="Double" />
+            <Field name="Sequence" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\2020_P03\P03 LoadGen V.2.xlsm|||`20P03 Flat File LC$`" type="Double" />
+            <Field name="Supplier Code" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\2020_P03\P03 LoadGen V.2.xlsm|||`20P03 Flat File LC$`" type="V_String" />
+            <Field name="Beginning Day Flag" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\2020_P03\P03 LoadGen V.2.xlsm|||`20P03 Flat File LC$`" type="V_String" />
+            <Field name="StartTime" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\2020_P03\P03 LoadGen V.2.xlsm|||`20P03 Flat File LC$`" type="V_String" />
+            <Field name="Ending Day Flag" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\2020_P03\P03 LoadGen V.2.xlsm|||`20P03 Flat File LC$`" type="V_String" />
+            <Field name="FinishTime" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\2020_P03\P03 LoadGen V.2.xlsm|||`20P03 Flat File LC$`" type="V_String" />
+            <Field name="Sun" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\2020_P03\P03 LoadGen V.2.xlsm|||`20P03 Flat File LC$`" type="V_String" />
+            <Field name="Mon" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\2020_P03\P03 LoadGen V.2.xlsm|||`20P03 Flat File LC$`" type="V_String" />
+            <Field name="Tue" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\2020_P03\P03 LoadGen V.2.xlsm|||`20P03 Flat File LC$`" type="V_String" />
+            <Field name="Wed" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\2020_P03\P03 LoadGen V.2.xlsm|||`20P03 Flat File LC$`" type="V_String" />
+            <Field name="Thu" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\2020_P03\P03 LoadGen V.2.xlsm|||`20P03 Flat File LC$`" type="V_String" />
+            <Field name="Fri" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\2020_P03\P03 LoadGen V.2.xlsm|||`20P03 Flat File LC$`" type="V_String" />
+            <Field name="Sat" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\2020_P03\P03 LoadGen V.2.xlsm|||`20P03 Flat File LC$`" type="V_String" />
+            <Field name="PickupDays" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\2020_P03\P03 LoadGen V.2.xlsm|||`20P03 Flat File LC$`" type="Double" />
+            <Field name="Suppliers" size="255" source="File: L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\2020_P03\P03 LoadGen V.2.xlsm|||`20P03 Flat File LC$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="570" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Route" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Route" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Mon" selected="False" input="Left_" />
+                <SelectField field="Left_Tue" selected="False" input="Left_" />
+                <SelectField field="Left_Wed" selected="False" input="Left_" />
+                <SelectField field="Left_Thu" selected="False" input="Left_" />
+                <SelectField field="Left_Fri" selected="False" input="Left_" />
+                <SelectField field="Left_Sat" selected="False" input="Left_" />
+                <SelectField field="Right_Carrier" selected="False" input="Right_" />
+                <SelectField field="Right_Route" selected="False" rename="Right_Route" input="Right_" />
+                <SelectField field="Right_Start" selected="False" input="Right_" />
+                <SelectField field="Right_Period" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="714" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thomasa\AppData\Local\Temp\Engine_9844_dc1baa18219346aaba00e1cf830f5227_\Engine_9920_c32543d2525d4b60b4200e47f5e20c1a_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="222" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="F4" selected="False" rename="Period" />
+            <SelectField field="Carrier2" selected="True" />
+            <SelectField field="Route2" selected="True" />
+            <SelectField field="Start2" selected="True" />
+            <SelectField field="F8" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="378" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Carrier2</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-04-30 11:37:22</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>CMF</Operand>
+              <StartDate>2020-04-30 11:37:22</StartDate>
+              <EndDate>2020-04-30 11:37:22</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Carrier2] = "CMF"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="570" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Route" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Route2" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Sun" selected="False" input="Left_" />
+                <SelectField field="Left_Tue" selected="False" input="Left_" />
+                <SelectField field="Left_Wed" selected="False" input="Left_" />
+                <SelectField field="Left_Thu" selected="False" input="Left_" />
+                <SelectField field="Left_Fri" selected="False" input="Left_" />
+                <SelectField field="Left_Sat" selected="False" input="Left_" />
+                <SelectField field="Right_Carrier2" selected="False" input="Right_" />
+                <SelectField field="Right_Route2" selected="False" input="Right_" />
+                <SelectField field="Right_Start2" selected="False" input="Right_" />
+                <SelectField field="Right_F8" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="726" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="CrossDock" />
+            <Field field="LP" />
+            <Field field="Route" />
+            <Field field="RouteMileage" />
+            <Field field="Leg Miles" />
+            <Field field="Stops" />
+            <Field field="Sequence" />
+            <Field field="Supplier Code" />
+            <Field field="Beginning Day Flag" />
+            <Field field="StartTime" />
+            <Field field="Ending Day Flag" />
+            <Field field="FinishTime" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="CrossDock" />
+            <Field field="LP" />
+            <Field field="Route" />
+            <Field field="RouteMileage" />
+            <Field field="Leg Miles" />
+            <Field field="Stops" />
+            <Field field="Sequence" />
+            <Field field="Supplier Code" />
+            <Field field="Beginning Day Flag" />
+            <Field field="StartTime" />
+            <Field field="Ending Day Flag" />
+            <Field field="FinishTime" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_CrossDock" selected="True" input="Left_" />
+                <SelectField field="Left_LP" selected="True" input="Left_" />
+                <SelectField field="Left_Route" selected="True" input="Left_" />
+                <SelectField field="Left_RouteMileage" selected="True" input="Left_" />
+                <SelectField field="Left_Leg Miles" selected="True" input="Left_" />
+                <SelectField field="Left_Stops" selected="True" input="Left_" />
+                <SelectField field="Left_Sequence" selected="True" input="Left_" />
+                <SelectField field="Left_Supplier Code" selected="True" input="Left_" />
+                <SelectField field="Left_Beginning Day Flag" selected="True" input="Left_" />
+                <SelectField field="Left_StartTime" selected="True" input="Left_" />
+                <SelectField field="Left_Ending Day Flag" selected="True" input="Left_" />
+                <SelectField field="Left_FinishTime" selected="True" input="Left_" />
+                <SelectField field="Left_Sun" selected="True" input="Left_" />
+                <SelectField field="Right_Mon" selected="True" input="Right_" />
+                <SelectField field="Left_PickupDays" selected="True" input="Left_" />
+                <SelectField field="Left_Suppliers" selected="True" input="Left_" />
+                <SelectField field="Right_CrossDock" selected="False" rename="Right_CrossDock" input="Right_" />
+                <SelectField field="Right_LP" selected="False" rename="Right_LP" input="Right_" />
+                <SelectField field="Right_Route" selected="False" rename="Right_Route" input="Right_" />
+                <SelectField field="Right_RouteMileage" selected="False" rename="Right_RouteMileage" input="Right_" />
+                <SelectField field="Right_Leg Miles" selected="False" rename="Right_Leg Miles" input="Right_" />
+                <SelectField field="Right_Stops" selected="False" rename="Right_Stops" input="Right_" />
+                <SelectField field="Right_Sequence" selected="False" rename="Right_Sequence" input="Right_" />
+                <SelectField field="Right_Supplier Code" selected="False" rename="Right_Supplier Code" input="Right_" />
+                <SelectField field="Right_Beginning Day Flag" selected="False" rename="Right_Beginning Day Flag" input="Right_" />
+                <SelectField field="Right_StartTime" selected="False" rename="Right_StartTime" input="Right_" />
+                <SelectField field="Right_Ending Day Flag" selected="False" rename="Right_Ending Day Flag" input="Right_" />
+                <SelectField field="Right_FinishTime" selected="False" rename="Right_FinishTime" input="Right_" />
+                <SelectField field="Right_PickupDays" selected="False" rename="Right_PickupDays" input="Right_" />
+                <SelectField field="Right_Suppliers" selected="False" rename="Right_Suppliers" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="846" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thomasa\AppData\Local\Temp\Engine_9844_dc1baa18219346aaba00e1cf830f5227_\Engine_9920_02d5fb4e107947efb8d3029ecda946f6_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="738" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thomasa\AppData\Local\Temp\Engine_9844_dc1baa18219346aaba00e1cf830f5227_\Engine_9920_6f74678e84bb4133939536503b48b4a1_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="846" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thomasa\AppData\Local\Temp\Engine_9844_dc1baa18219346aaba00e1cf830f5227_\Engine_9920_62e3a379f37944d7b75a82133b85837e_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="810" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;N&quot;" field="Mon" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Mon = "N"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="858" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;N&quot;" field="SUN" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[SUN = "N"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1026" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1314" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thomasa\AppData\Local\Temp\Engine_9844_dc1baa18219346aaba00e1cf830f5227_\Engine_9920_34a692c1188949c79ebff774bdde8c14_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1098" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CrossDock" selected="True" />
+            <SelectField field="LP" selected="True" />
+            <SelectField field="Route" selected="True" />
+            <SelectField field="RouteMileage" selected="True" />
+            <SelectField field="Leg Miles" selected="True" />
+            <SelectField field="Stops" selected="True" />
+            <SelectField field="Sequence" selected="True" />
+            <SelectField field="Supplier Code" selected="True" />
+            <SelectField field="Beginning Day Flag" selected="True" />
+            <SelectField field="StartTime" selected="True" />
+            <SelectField field="Ending Day Flag" selected="True" />
+            <SelectField field="FinishTime" selected="True" />
+            <SelectField field="Sun" selected="True" />
+            <SelectField field="Mon" selected="True" />
+            <SelectField field="PickupDays" selected="True" />
+            <SelectField field="Suppliers" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="474" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Period</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-04-30 11:48:24</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>CUR</Operand>
+              <StartDate>2020-04-30 11:48:24</StartDate>
+              <EndDate>2020-04-30 11:48:24</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Period] = "CUR"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="474" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>F8</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-04-30 11:48:46</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2020-04-30 11:48:46</StartDate>
+              <EndDate>2020-04-30 11:48:46</EndDate>
+              <Operand>CUR</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[F8] = "CUR"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="234" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="F4" selected="False" rename="Period" />
+            <SelectField field="Carrier3" selected="True" />
+            <SelectField field="Route3" selected="True" />
+            <SelectField field="Start3" selected="True" />
+            <SelectField field="F12" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="390" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Carrier3</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-04-30 11:52:45</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2020-04-30 11:52:45</StartDate>
+              <EndDate>2020-04-30 11:52:45</EndDate>
+              <Operand>CMF</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Carrier3] = "CMF"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="582" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Route" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Route3" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Sun" selected="False" input="Left_" />
+                <SelectField field="Left_Mon" selected="False" input="Left_" />
+                <SelectField field="Left_Wed" selected="False" input="Left_" />
+                <SelectField field="Left_Thu" selected="False" input="Left_" />
+                <SelectField field="Left_Fri" selected="False" input="Left_" />
+                <SelectField field="Left_Sat" selected="False" input="Left_" />
+                <SelectField field="Right_Carrier3" selected="False" input="Right_" />
+                <SelectField field="Right_Route3" selected="False" input="Right_" />
+                <SelectField field="Right_Start3" selected="False" input="Right_" />
+                <SelectField field="Right_F12" selected="False" input="Right_" />
+                <SelectField field="Right_Carrier2" selected="False" input="Right_" />
+                <SelectField field="Right_Route2" selected="False" input="Right_" />
+                <SelectField field="Right_Start2" selected="False" input="Right_" />
+                <SelectField field="Right_F8" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="486" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>F12</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-04-30 11:52:50</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2020-04-30 11:52:50</StartDate>
+              <EndDate>2020-04-30 11:52:50</EndDate>
+              <Operand>CUR</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[F12] = "CUR"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1242" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="CrossDock" />
+            <Field field="LP" />
+            <Field field="Route" />
+            <Field field="RouteMileage" />
+            <Field field="Leg Miles" />
+            <Field field="Stops" />
+            <Field field="Sequence" />
+            <Field field="Supplier Code" />
+            <Field field="Beginning Day Flag" />
+            <Field field="StartTime" />
+            <Field field="Ending Day Flag" />
+            <Field field="FinishTime" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="CrossDock" />
+            <Field field="LP" />
+            <Field field="Route" />
+            <Field field="RouteMileage" />
+            <Field field="Leg Miles" />
+            <Field field="Stops" />
+            <Field field="Sequence" />
+            <Field field="Supplier Code" />
+            <Field field="Beginning Day Flag" />
+            <Field field="StartTime" />
+            <Field field="Ending Day Flag" />
+            <Field field="FinishTime" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_CrossDock" selected="True" input="Left_" />
+                <SelectField field="Left_LP" selected="True" input="Left_" />
+                <SelectField field="Left_Route" selected="True" input="Left_" />
+                <SelectField field="Left_RouteMileage" selected="True" input="Left_" />
+                <SelectField field="Left_Leg Miles" selected="True" input="Left_" />
+                <SelectField field="Left_Stops" selected="True" input="Left_" />
+                <SelectField field="Left_Sequence" selected="True" input="Left_" />
+                <SelectField field="Left_Supplier Code" selected="True" input="Left_" />
+                <SelectField field="Left_Beginning Day Flag" selected="True" input="Left_" />
+                <SelectField field="Left_StartTime" selected="True" input="Left_" />
+                <SelectField field="Left_Ending Day Flag" selected="True" input="Left_" />
+                <SelectField field="Left_FinishTime" selected="True" input="Left_" />
+                <SelectField field="Left_Sun" selected="True" input="Left_" />
+                <SelectField field="Right_Mon" selected="True" rename="Right_Mon" input="Right_" />
+                <SelectField field="Left_PickupDays" selected="True" input="Left_" />
+                <SelectField field="Left_Suppliers" selected="True" input="Left_" />
+                <SelectField field="Right_CrossDock" selected="False" rename="Right_CrossDock" input="Right_" />
+                <SelectField field="Right_LP" selected="False" rename="Right_LP" input="Right_" />
+                <SelectField field="Right_Route" selected="False" rename="Right_Route" input="Right_" />
+                <SelectField field="Right_RouteMileage" selected="False" rename="Right_RouteMileage" input="Right_" />
+                <SelectField field="Right_Leg Miles" selected="False" rename="Right_Leg Miles" input="Right_" />
+                <SelectField field="Right_Stops" selected="False" rename="Right_Stops" input="Right_" />
+                <SelectField field="Right_Sequence" selected="False" rename="Right_Sequence" input="Right_" />
+                <SelectField field="Right_Supplier Code" selected="False" rename="Right_Supplier Code" input="Right_" />
+                <SelectField field="Right_Beginning Day Flag" selected="False" rename="Right_Beginning Day Flag" input="Right_" />
+                <SelectField field="Right_StartTime" selected="False" rename="Right_StartTime" input="Right_" />
+                <SelectField field="Right_Ending Day Flag" selected="False" rename="Right_Ending Day Flag" input="Right_" />
+                <SelectField field="Right_FinishTime" selected="False" rename="Right_FinishTime" input="Right_" />
+                <SelectField field="Right_PickupDays" selected="False" rename="Right_PickupDays" input="Right_" />
+                <SelectField field="Right_Suppliers" selected="False" rename="Right_Suppliers" input="Right_" />
+                <SelectField field="Right_Tue" selected="True" input="Right_" />
+                <SelectField field="Left_Mon" selected="True" input="Left_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1350" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;N&quot;" field="Tue" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Tue = "N"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1362" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;N&quot;" field="Sun" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;N&quot;" field="Mon" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Sun = "N"
+Mon = "N"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1470" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1578" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CrossDock" selected="True" />
+            <SelectField field="LP" selected="True" />
+            <SelectField field="Route" selected="True" />
+            <SelectField field="RouteMileage" selected="True" />
+            <SelectField field="Leg Miles" selected="True" />
+            <SelectField field="Stops" selected="True" />
+            <SelectField field="Sequence" selected="True" />
+            <SelectField field="Supplier Code" selected="True" />
+            <SelectField field="Beginning Day Flag" selected="True" />
+            <SelectField field="StartTime" selected="True" />
+            <SelectField field="Ending Day Flag" selected="True" />
+            <SelectField field="FinishTime" selected="True" />
+            <SelectField field="Sun" selected="True" />
+            <SelectField field="Mon" selected="True" />
+            <SelectField field="Tue" selected="True" />
+            <SelectField field="PickupDays" selected="True" />
+            <SelectField field="Suppliers" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1710" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thomasa\AppData\Local\Temp\Engine_9844_dc1baa18219346aaba00e1cf830f5227_\Engine_9920_c931d632a1a94ca8a46a833bb6f5cd8c_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="270" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="F4" selected="False" rename="Period" />
+            <SelectField field="Carrier4" selected="True" />
+            <SelectField field="Route4" selected="True" />
+            <SelectField field="Start4" selected="True" />
+            <SelectField field="F16" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="426" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Carrier4</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-04-30 12:00:11</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2020-04-30 12:00:11</StartDate>
+              <EndDate>2020-04-30 12:00:11</EndDate>
+              <Operand>CMF</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Carrier4] = "CMF"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="618" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Route" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Route4" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Sun" selected="False" input="Left_" />
+                <SelectField field="Left_Mon" selected="False" input="Left_" />
+                <SelectField field="Left_Tue" selected="False" input="Left_" />
+                <SelectField field="Left_Thu" selected="False" input="Left_" />
+                <SelectField field="Left_Fri" selected="False" input="Left_" />
+                <SelectField field="Left_Sat" selected="False" input="Left_" />
+                <SelectField field="Right_Carrier4" selected="False" input="Right_" />
+                <SelectField field="Right_Route4" selected="False" input="Right_" />
+                <SelectField field="Right_Start4" selected="False" input="Right_" />
+                <SelectField field="Right_F16" selected="False" input="Right_" />
+                <SelectField field="Right_Carrier3" selected="False" input="Right_" />
+                <SelectField field="Right_Route3" selected="False" input="Right_" />
+                <SelectField field="Right_Start3" selected="False" input="Right_" />
+                <SelectField field="Right_F12" selected="False" input="Right_" />
+                <SelectField field="Right_Carrier2" selected="False" input="Right_" />
+                <SelectField field="Right_Route2" selected="False" input="Right_" />
+                <SelectField field="Right_Start2" selected="False" input="Right_" />
+                <SelectField field="Right_F8" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="522" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>F16</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-04-30 12:00:16</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>CUR</Operand>
+              <StartDate>2020-04-30 12:00:16</StartDate>
+              <EndDate>2020-04-30 12:00:16</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[F16] = "CUR"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1698" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="CrossDock" />
+            <Field field="LP" />
+            <Field field="Route" />
+            <Field field="RouteMileage" />
+            <Field field="Leg Miles" />
+            <Field field="Stops" />
+            <Field field="Sequence" />
+            <Field field="Supplier Code" />
+            <Field field="Beginning Day Flag" />
+            <Field field="StartTime" />
+            <Field field="Ending Day Flag" />
+            <Field field="FinishTime" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="CrossDock" />
+            <Field field="LP" />
+            <Field field="Route" />
+            <Field field="RouteMileage" />
+            <Field field="Leg Miles" />
+            <Field field="Stops" />
+            <Field field="Sequence" />
+            <Field field="Supplier Code" />
+            <Field field="Beginning Day Flag" />
+            <Field field="StartTime" />
+            <Field field="Ending Day Flag" />
+            <Field field="FinishTime" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_CrossDock" selected="True" input="Left_" />
+                <SelectField field="Left_LP" selected="True" input="Left_" />
+                <SelectField field="Left_Route" selected="True" input="Left_" />
+                <SelectField field="Left_RouteMileage" selected="True" input="Left_" />
+                <SelectField field="Left_Leg Miles" selected="True" input="Left_" />
+                <SelectField field="Left_Stops" selected="True" input="Left_" />
+                <SelectField field="Left_Sequence" selected="True" input="Left_" />
+                <SelectField field="Left_Supplier Code" selected="True" input="Left_" />
+                <SelectField field="Left_Beginning Day Flag" selected="True" input="Left_" />
+                <SelectField field="Left_StartTime" selected="True" input="Left_" />
+                <SelectField field="Left_Ending Day Flag" selected="True" input="Left_" />
+                <SelectField field="Left_FinishTime" selected="True" input="Left_" />
+                <SelectField field="Left_Sun" selected="True" input="Left_" />
+                <SelectField field="Right_Mon" selected="True" rename="Right_Mon" input="Right_" />
+                <SelectField field="Left_PickupDays" selected="True" input="Left_" />
+                <SelectField field="Left_Suppliers" selected="True" input="Left_" />
+                <SelectField field="Right_CrossDock" selected="False" rename="Right_CrossDock" input="Right_" />
+                <SelectField field="Right_LP" selected="False" rename="Right_LP" input="Right_" />
+                <SelectField field="Right_Route" selected="False" rename="Right_Route" input="Right_" />
+                <SelectField field="Right_RouteMileage" selected="False" rename="Right_RouteMileage" input="Right_" />
+                <SelectField field="Right_Leg Miles" selected="False" rename="Right_Leg Miles" input="Right_" />
+                <SelectField field="Right_Stops" selected="False" rename="Right_Stops" input="Right_" />
+                <SelectField field="Right_Sequence" selected="False" rename="Right_Sequence" input="Right_" />
+                <SelectField field="Right_Supplier Code" selected="False" rename="Right_Supplier Code" input="Right_" />
+                <SelectField field="Right_Beginning Day Flag" selected="False" rename="Right_Beginning Day Flag" input="Right_" />
+                <SelectField field="Right_StartTime" selected="False" rename="Right_StartTime" input="Right_" />
+                <SelectField field="Right_Ending Day Flag" selected="False" rename="Right_Ending Day Flag" input="Right_" />
+                <SelectField field="Right_FinishTime" selected="False" rename="Right_FinishTime" input="Right_" />
+                <SelectField field="Right_PickupDays" selected="False" rename="Right_PickupDays" input="Right_" />
+                <SelectField field="Right_Suppliers" selected="False" rename="Right_Suppliers" input="Right_" />
+                <SelectField field="Right_Tue" selected="True" rename="Right_Tue" input="Right_" />
+                <SelectField field="Left_Mon" selected="True" input="Left_" />
+                <SelectField field="Right_Wed" selected="True" input="Right_" />
+                <SelectField field="Left_Tue" selected="True" input="Left_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1794" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;N&quot;" field="Wed" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Wed = "N"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1806" y="690" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;N&quot;" field="Sun" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;N&quot;" field="Mon" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;N&quot;" field="Tue" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Sun = "N"
+Mon = "N"
+Tue = "N"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1914" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2010" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CrossDock" selected="True" />
+            <SelectField field="LP" selected="True" />
+            <SelectField field="Route" selected="True" />
+            <SelectField field="RouteMileage" selected="True" />
+            <SelectField field="Leg Miles" selected="True" />
+            <SelectField field="Stops" selected="True" />
+            <SelectField field="Sequence" selected="True" />
+            <SelectField field="Supplier Code" selected="True" />
+            <SelectField field="Beginning Day Flag" selected="True" />
+            <SelectField field="StartTime" selected="True" />
+            <SelectField field="Ending Day Flag" selected="True" />
+            <SelectField field="FinishTime" selected="True" />
+            <SelectField field="Sun" selected="True" />
+            <SelectField field="Mon" selected="True" />
+            <SelectField field="Tue" selected="True" />
+            <SelectField field="Wed" selected="True" />
+            <SelectField field="PickupDays" selected="True" />
+            <SelectField field="Suppliers" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2082" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thomasa\AppData\Local\Temp\Engine_9844_dc1baa18219346aaba00e1cf830f5227_\Engine_9920_e9b3dddff84b4ac280cdab2753e7f4c2_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="270" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="F4" selected="False" rename="Period" />
+            <SelectField field="Carrier5" selected="True" />
+            <SelectField field="Route5" selected="True" />
+            <SelectField field="Start5" selected="True" />
+            <SelectField field="F20" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="426" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Carrier5</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-04-30 12:08:48</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2020-04-30 12:08:48</StartDate>
+              <EndDate>2020-04-30 12:08:48</EndDate>
+              <Operand>CMF</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Carrier5] = "CMF"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="618" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Route" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Route5" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Sun" selected="False" input="Left_" />
+                <SelectField field="Left_Mon" selected="False" input="Left_" />
+                <SelectField field="Left_Tue" selected="False" input="Left_" />
+                <SelectField field="Left_Wed" selected="False" input="Left_" />
+                <SelectField field="Left_Fri" selected="False" input="Left_" />
+                <SelectField field="Left_Sat" selected="False" input="Left_" />
+                <SelectField field="Right_Carrier5" selected="False" input="Right_" />
+                <SelectField field="Right_Route5" selected="False" input="Right_" />
+                <SelectField field="Right_Start5" selected="False" input="Right_" />
+                <SelectField field="Right_F20" selected="False" input="Right_" />
+                <SelectField field="Right_Carrier4" selected="False" input="Right_" />
+                <SelectField field="Right_Route4" selected="False" input="Right_" />
+                <SelectField field="Right_Start4" selected="False" input="Right_" />
+                <SelectField field="Right_F16" selected="False" input="Right_" />
+                <SelectField field="Right_Carrier3" selected="False" input="Right_" />
+                <SelectField field="Right_Route3" selected="False" input="Right_" />
+                <SelectField field="Right_Start3" selected="False" input="Right_" />
+                <SelectField field="Right_F12" selected="False" input="Right_" />
+                <SelectField field="Right_Carrier2" selected="False" input="Right_" />
+                <SelectField field="Right_Route2" selected="False" input="Right_" />
+                <SelectField field="Right_Start2" selected="False" input="Right_" />
+                <SelectField field="Right_F8" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="522" y="810" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>F20</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-04-30 12:08:53</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2020-04-30 12:08:53</StartDate>
+              <EndDate>2020-04-30 12:08:53</EndDate>
+              <Operand>CUR</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[F20] = "CUR"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="2154" y="774" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="CrossDock" />
+            <Field field="LP" />
+            <Field field="Route" />
+            <Field field="RouteMileage" />
+            <Field field="Leg Miles" />
+            <Field field="Stops" />
+            <Field field="Sequence" />
+            <Field field="Supplier Code" />
+            <Field field="Beginning Day Flag" />
+            <Field field="StartTime" />
+            <Field field="Ending Day Flag" />
+            <Field field="FinishTime" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="CrossDock" />
+            <Field field="LP" />
+            <Field field="Route" />
+            <Field field="RouteMileage" />
+            <Field field="Leg Miles" />
+            <Field field="Stops" />
+            <Field field="Sequence" />
+            <Field field="Supplier Code" />
+            <Field field="Beginning Day Flag" />
+            <Field field="StartTime" />
+            <Field field="Ending Day Flag" />
+            <Field field="FinishTime" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_CrossDock" selected="True" input="Left_" />
+                <SelectField field="Left_LP" selected="True" input="Left_" />
+                <SelectField field="Left_Route" selected="True" input="Left_" />
+                <SelectField field="Left_RouteMileage" selected="True" input="Left_" />
+                <SelectField field="Left_Leg Miles" selected="True" input="Left_" />
+                <SelectField field="Left_Stops" selected="True" input="Left_" />
+                <SelectField field="Left_Sequence" selected="True" input="Left_" />
+                <SelectField field="Left_Supplier Code" selected="True" input="Left_" />
+                <SelectField field="Left_Beginning Day Flag" selected="True" input="Left_" />
+                <SelectField field="Left_StartTime" selected="True" input="Left_" />
+                <SelectField field="Left_Ending Day Flag" selected="True" input="Left_" />
+                <SelectField field="Left_FinishTime" selected="True" input="Left_" />
+                <SelectField field="Left_Sun" selected="True" input="Left_" />
+                <SelectField field="Right_Mon" selected="True" rename="Right_Mon" input="Right_" />
+                <SelectField field="Left_PickupDays" selected="True" input="Left_" />
+                <SelectField field="Left_Suppliers" selected="True" input="Left_" />
+                <SelectField field="Right_CrossDock" selected="False" rename="Right_CrossDock" input="Right_" />
+                <SelectField field="Right_LP" selected="False" rename="Right_LP" input="Right_" />
+                <SelectField field="Right_Route" selected="False" rename="Right_Route" input="Right_" />
+                <SelectField field="Right_RouteMileage" selected="False" rename="Right_RouteMileage" input="Right_" />
+                <SelectField field="Right_Leg Miles" selected="False" rename="Right_Leg Miles" input="Right_" />
+                <SelectField field="Right_Stops" selected="False" rename="Right_Stops" input="Right_" />
+                <SelectField field="Right_Sequence" selected="False" rename="Right_Sequence" input="Right_" />
+                <SelectField field="Right_Supplier Code" selected="False" rename="Right_Supplier Code" input="Right_" />
+                <SelectField field="Right_Beginning Day Flag" selected="False" rename="Right_Beginning Day Flag" input="Right_" />
+                <SelectField field="Right_StartTime" selected="False" rename="Right_StartTime" input="Right_" />
+                <SelectField field="Right_Ending Day Flag" selected="False" rename="Right_Ending Day Flag" input="Right_" />
+                <SelectField field="Right_FinishTime" selected="False" rename="Right_FinishTime" input="Right_" />
+                <SelectField field="Right_PickupDays" selected="False" rename="Right_PickupDays" input="Right_" />
+                <SelectField field="Right_Suppliers" selected="False" rename="Right_Suppliers" input="Right_" />
+                <SelectField field="Right_Tue" selected="True" rename="Right_Tue" input="Right_" />
+                <SelectField field="Left_Mon" selected="True" input="Left_" />
+                <SelectField field="Right_Wed" selected="True" rename="Right_Wed" input="Right_" />
+                <SelectField field="Left_Tue" selected="True" input="Left_" />
+                <SelectField field="Right_Thu" selected="True" input="Right_" />
+                <SelectField field="Left_Wed" selected="True" input="Left_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2262" y="714" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;N&quot;" field="Thu" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Thu = "N"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2262" y="834" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;N&quot;" field="Sun" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;N&quot;" field="Mon" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;N&quot;" field="Tue" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;N&quot;" field="Wed" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Sun = "N"
+Mon = "N"
+Tue = "N"
+Wed = "N"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="2382" y="774" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2502" y="774" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CrossDock" selected="True" />
+            <SelectField field="LP" selected="True" />
+            <SelectField field="Route" selected="True" />
+            <SelectField field="RouteMileage" selected="True" />
+            <SelectField field="Leg Miles" selected="True" />
+            <SelectField field="Stops" selected="True" />
+            <SelectField field="Sequence" selected="True" />
+            <SelectField field="Supplier Code" selected="True" />
+            <SelectField field="Beginning Day Flag" selected="True" />
+            <SelectField field="StartTime" selected="True" />
+            <SelectField field="Ending Day Flag" selected="True" />
+            <SelectField field="FinishTime" selected="True" />
+            <SelectField field="Sun" selected="True" />
+            <SelectField field="Mon" selected="True" />
+            <SelectField field="Tue" selected="True" />
+            <SelectField field="Wed" selected="True" />
+            <SelectField field="Thu" selected="True" />
+            <SelectField field="PickupDays" selected="True" />
+            <SelectField field="Suppliers" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2574" y="726" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thomasa\AppData\Local\Temp\Engine_9844_dc1baa18219346aaba00e1cf830f5227_\Engine_9920_8255c23453ca4ab898db517b3d590068_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="282" y="1062" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="F4" selected="False" rename="Period" />
+            <SelectField field="Carrier6" selected="True" />
+            <SelectField field="Route6" selected="True" />
+            <SelectField field="Start6" selected="True" />
+            <SelectField field="F24" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="438" y="1062" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Carrier6</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-04-30 12:14:18</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2020-04-30 12:14:18</StartDate>
+              <EndDate>2020-04-30 12:14:18</EndDate>
+              <Operand>CMF</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Carrier6] = "CMF"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="630" y="1026" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Route" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Route6" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Sun" selected="False" input="Left_" />
+                <SelectField field="Left_Mon" selected="False" input="Left_" />
+                <SelectField field="Left_Tue" selected="False" input="Left_" />
+                <SelectField field="Left_Wed" selected="False" input="Left_" />
+                <SelectField field="Left_Thu" selected="False" input="Left_" />
+                <SelectField field="Left_Sat" selected="False" input="Left_" />
+                <SelectField field="Right_Carrier6" selected="False" input="Right_" />
+                <SelectField field="Right_Route6" selected="False" input="Right_" />
+                <SelectField field="Right_Start6" selected="False" input="Right_" />
+                <SelectField field="Right_F24" selected="False" input="Right_" />
+                <SelectField field="Right_Carrier5" selected="False" input="Right_" />
+                <SelectField field="Right_Route5" selected="False" input="Right_" />
+                <SelectField field="Right_Start5" selected="False" input="Right_" />
+                <SelectField field="Right_F20" selected="False" input="Right_" />
+                <SelectField field="Right_Carrier4" selected="False" input="Right_" />
+                <SelectField field="Right_Route4" selected="False" input="Right_" />
+                <SelectField field="Right_Start4" selected="False" input="Right_" />
+                <SelectField field="Right_F16" selected="False" input="Right_" />
+                <SelectField field="Right_Carrier3" selected="False" input="Right_" />
+                <SelectField field="Right_Route3" selected="False" input="Right_" />
+                <SelectField field="Right_Start3" selected="False" input="Right_" />
+                <SelectField field="Right_F12" selected="False" input="Right_" />
+                <SelectField field="Right_Carrier2" selected="False" input="Right_" />
+                <SelectField field="Right_Route2" selected="False" input="Right_" />
+                <SelectField field="Right_Start2" selected="False" input="Right_" />
+                <SelectField field="Right_F8" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="534" y="1050" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>F24</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-04-30 12:14:22</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2020-04-30 12:14:22</StartDate>
+              <EndDate>2020-04-30 12:14:22</EndDate>
+              <Operand>CUR</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[F24] = "CUR"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="2610" y="1014" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="CrossDock" />
+            <Field field="LP" />
+            <Field field="Route" />
+            <Field field="RouteMileage" />
+            <Field field="Leg Miles" />
+            <Field field="Stops" />
+            <Field field="Sequence" />
+            <Field field="Supplier Code" />
+            <Field field="Beginning Day Flag" />
+            <Field field="StartTime" />
+            <Field field="Ending Day Flag" />
+            <Field field="FinishTime" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="CrossDock" />
+            <Field field="LP" />
+            <Field field="Route" />
+            <Field field="RouteMileage" />
+            <Field field="Leg Miles" />
+            <Field field="Stops" />
+            <Field field="Sequence" />
+            <Field field="Supplier Code" />
+            <Field field="Beginning Day Flag" />
+            <Field field="StartTime" />
+            <Field field="Ending Day Flag" />
+            <Field field="FinishTime" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_CrossDock" selected="True" input="Left_" />
+                <SelectField field="Left_LP" selected="True" input="Left_" />
+                <SelectField field="Left_Route" selected="True" input="Left_" />
+                <SelectField field="Left_RouteMileage" selected="True" input="Left_" />
+                <SelectField field="Left_Leg Miles" selected="True" input="Left_" />
+                <SelectField field="Left_Stops" selected="True" input="Left_" />
+                <SelectField field="Left_Sequence" selected="True" input="Left_" />
+                <SelectField field="Left_Supplier Code" selected="True" input="Left_" />
+                <SelectField field="Left_Beginning Day Flag" selected="True" input="Left_" />
+                <SelectField field="Left_StartTime" selected="True" input="Left_" />
+                <SelectField field="Left_Ending Day Flag" selected="True" input="Left_" />
+                <SelectField field="Left_FinishTime" selected="True" input="Left_" />
+                <SelectField field="Left_Sun" selected="True" input="Left_" />
+                <SelectField field="Right_Mon" selected="True" rename="Right_Mon" input="Right_" />
+                <SelectField field="Left_PickupDays" selected="True" input="Left_" />
+                <SelectField field="Left_Suppliers" selected="True" input="Left_" />
+                <SelectField field="Right_CrossDock" selected="False" rename="Right_CrossDock" input="Right_" />
+                <SelectField field="Right_LP" selected="False" rename="Right_LP" input="Right_" />
+                <SelectField field="Right_Route" selected="False" rename="Right_Route" input="Right_" />
+                <SelectField field="Right_RouteMileage" selected="False" rename="Right_RouteMileage" input="Right_" />
+                <SelectField field="Right_Leg Miles" selected="False" rename="Right_Leg Miles" input="Right_" />
+                <SelectField field="Right_Stops" selected="False" rename="Right_Stops" input="Right_" />
+                <SelectField field="Right_Sequence" selected="False" rename="Right_Sequence" input="Right_" />
+                <SelectField field="Right_Supplier Code" selected="False" rename="Right_Supplier Code" input="Right_" />
+                <SelectField field="Right_Beginning Day Flag" selected="False" rename="Right_Beginning Day Flag" input="Right_" />
+                <SelectField field="Right_StartTime" selected="False" rename="Right_StartTime" input="Right_" />
+                <SelectField field="Right_Ending Day Flag" selected="False" rename="Right_Ending Day Flag" input="Right_" />
+                <SelectField field="Right_FinishTime" selected="False" rename="Right_FinishTime" input="Right_" />
+                <SelectField field="Right_PickupDays" selected="False" rename="Right_PickupDays" input="Right_" />
+                <SelectField field="Right_Suppliers" selected="False" rename="Right_Suppliers" input="Right_" />
+                <SelectField field="Right_Tue" selected="True" rename="Right_Tue" input="Right_" />
+                <SelectField field="Left_Mon" selected="True" input="Left_" />
+                <SelectField field="Right_Wed" selected="True" rename="Right_Wed" input="Right_" />
+                <SelectField field="Left_Tue" selected="True" input="Left_" />
+                <SelectField field="Right_Thu" selected="True" rename="Right_Thu" input="Right_" />
+                <SelectField field="Left_Wed" selected="True" input="Left_" />
+                <SelectField field="Right_Fri" selected="True" input="Right_" />
+                <SelectField field="Left_Thu" selected="True" input="Left_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="2898" y="1014" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2718" y="942" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;N&quot;" field="Fri" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Fri = "N"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2730" y="1086" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;N&quot;" field="Sun" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;N&quot;" field="Mon" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;N&quot;" field="Tue" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;N&quot;" field="Wed" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;N&quot;" field="Thu" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Sun = "N"
+Mon = "N"
+Tue = "N"
+Wed = "N"
+Thu = "N"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="3018" y="1014" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CrossDock" selected="True" />
+            <SelectField field="LP" selected="True" />
+            <SelectField field="Route" selected="True" />
+            <SelectField field="RouteMileage" selected="True" />
+            <SelectField field="Leg Miles" selected="True" />
+            <SelectField field="Stops" selected="True" />
+            <SelectField field="Sequence" selected="True" />
+            <SelectField field="Supplier Code" selected="True" />
+            <SelectField field="Beginning Day Flag" selected="True" />
+            <SelectField field="StartTime" selected="True" />
+            <SelectField field="Ending Day Flag" selected="True" />
+            <SelectField field="FinishTime" selected="True" />
+            <SelectField field="Sun" selected="True" />
+            <SelectField field="Mon" selected="True" />
+            <SelectField field="Tue" selected="True" />
+            <SelectField field="Wed" selected="True" />
+            <SelectField field="Thu" selected="True" />
+            <SelectField field="Fri" selected="True" />
+            <SelectField field="PickupDays" selected="True" />
+            <SelectField field="Suppliers" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="3102" y="978" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thomasa\AppData\Local\Temp\Engine_9844_dc1baa18219346aaba00e1cf830f5227_\Engine_9920_518b88a4b3b9445f97d3ad8f4858204d_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="294" y="1230" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="F4" selected="False" rename="Period" />
+            <SelectField field="Carrier7" selected="True" />
+            <SelectField field="Route7" selected="True" />
+            <SelectField field="Start7" selected="True" />
+            <SelectField field="F28" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="450" y="1230" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Carrier7</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-04-30 12:20:34</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2020-04-30 12:20:34</StartDate>
+              <EndDate>2020-04-30 12:20:34</EndDate>
+              <Operand>CMF</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Carrier7] = "CMF"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="642" y="1194" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Route" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Route7" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Sun" selected="False" input="Left_" />
+                <SelectField field="Left_Mon" selected="False" input="Left_" />
+                <SelectField field="Left_Tue" selected="False" input="Left_" />
+                <SelectField field="Left_Wed" selected="False" input="Left_" />
+                <SelectField field="Left_Thu" selected="False" input="Left_" />
+                <SelectField field="Left_Fri" selected="False" input="Left_" />
+                <SelectField field="Right_Carrier7" selected="False" input="Right_" />
+                <SelectField field="Right_Route7" selected="False" input="Right_" />
+                <SelectField field="Right_Start7" selected="False" input="Right_" />
+                <SelectField field="Right_F28" selected="False" input="Right_" />
+                <SelectField field="Right_Carrier6" selected="False" input="Right_" />
+                <SelectField field="Right_Route6" selected="False" input="Right_" />
+                <SelectField field="Right_Start6" selected="False" input="Right_" />
+                <SelectField field="Right_F24" selected="False" input="Right_" />
+                <SelectField field="Right_Carrier5" selected="False" input="Right_" />
+                <SelectField field="Right_Route5" selected="False" input="Right_" />
+                <SelectField field="Right_Start5" selected="False" input="Right_" />
+                <SelectField field="Right_F20" selected="False" input="Right_" />
+                <SelectField field="Right_Carrier4" selected="False" input="Right_" />
+                <SelectField field="Right_Route4" selected="False" input="Right_" />
+                <SelectField field="Right_Start4" selected="False" input="Right_" />
+                <SelectField field="Right_F16" selected="False" input="Right_" />
+                <SelectField field="Right_Carrier3" selected="False" input="Right_" />
+                <SelectField field="Right_Route3" selected="False" input="Right_" />
+                <SelectField field="Right_Start3" selected="False" input="Right_" />
+                <SelectField field="Right_F12" selected="False" input="Right_" />
+                <SelectField field="Right_Carrier2" selected="False" input="Right_" />
+                <SelectField field="Right_Route2" selected="False" input="Right_" />
+                <SelectField field="Right_Start2" selected="False" input="Right_" />
+                <SelectField field="Right_F8" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="546" y="1218" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>F28</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-04-30 12:20:38</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2020-04-30 12:20:38</StartDate>
+              <EndDate>2020-04-30 12:20:38</EndDate>
+              <Operand>CUR</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[F28] = "CUR"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="3198" y="1182" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="CrossDock" />
+            <Field field="LP" />
+            <Field field="Route" />
+            <Field field="RouteMileage" />
+            <Field field="Leg Miles" />
+            <Field field="Stops" />
+            <Field field="Sequence" />
+            <Field field="Supplier Code" />
+            <Field field="Beginning Day Flag" />
+            <Field field="StartTime" />
+            <Field field="Ending Day Flag" />
+            <Field field="FinishTime" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="CrossDock" />
+            <Field field="LP" />
+            <Field field="Route" />
+            <Field field="RouteMileage" />
+            <Field field="Leg Miles" />
+            <Field field="Stops" />
+            <Field field="Sequence" />
+            <Field field="Supplier Code" />
+            <Field field="Beginning Day Flag" />
+            <Field field="StartTime" />
+            <Field field="Ending Day Flag" />
+            <Field field="FinishTime" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_CrossDock" selected="True" input="Left_" />
+                <SelectField field="Left_LP" selected="True" input="Left_" />
+                <SelectField field="Left_Route" selected="True" input="Left_" />
+                <SelectField field="Left_RouteMileage" selected="True" input="Left_" />
+                <SelectField field="Left_Leg Miles" selected="True" input="Left_" />
+                <SelectField field="Left_Stops" selected="True" input="Left_" />
+                <SelectField field="Left_Sequence" selected="True" input="Left_" />
+                <SelectField field="Left_Supplier Code" selected="True" input="Left_" />
+                <SelectField field="Left_Beginning Day Flag" selected="True" input="Left_" />
+                <SelectField field="Left_StartTime" selected="True" input="Left_" />
+                <SelectField field="Left_Ending Day Flag" selected="True" input="Left_" />
+                <SelectField field="Left_FinishTime" selected="True" input="Left_" />
+                <SelectField field="Left_Sun" selected="True" input="Left_" />
+                <SelectField field="Right_Mon" selected="True" rename="Right_Mon" input="Right_" />
+                <SelectField field="Left_PickupDays" selected="True" input="Left_" />
+                <SelectField field="Left_Suppliers" selected="True" input="Left_" />
+                <SelectField field="Right_CrossDock" selected="False" rename="Right_CrossDock" input="Right_" />
+                <SelectField field="Right_LP" selected="False" rename="Right_LP" input="Right_" />
+                <SelectField field="Right_Route" selected="False" rename="Right_Route" input="Right_" />
+                <SelectField field="Right_RouteMileage" selected="False" rename="Right_RouteMileage" input="Right_" />
+                <SelectField field="Right_Leg Miles" selected="False" rename="Right_Leg Miles" input="Right_" />
+                <SelectField field="Right_Stops" selected="False" rename="Right_Stops" input="Right_" />
+                <SelectField field="Right_Sequence" selected="False" rename="Right_Sequence" input="Right_" />
+                <SelectField field="Right_Supplier Code" selected="False" rename="Right_Supplier Code" input="Right_" />
+                <SelectField field="Right_Beginning Day Flag" selected="False" rename="Right_Beginning Day Flag" input="Right_" />
+                <SelectField field="Right_StartTime" selected="False" rename="Right_StartTime" input="Right_" />
+                <SelectField field="Right_Ending Day Flag" selected="False" rename="Right_Ending Day Flag" input="Right_" />
+                <SelectField field="Right_FinishTime" selected="False" rename="Right_FinishTime" input="Right_" />
+                <SelectField field="Right_PickupDays" selected="False" rename="Right_PickupDays" input="Right_" />
+                <SelectField field="Right_Suppliers" selected="False" rename="Right_Suppliers" input="Right_" />
+                <SelectField field="Right_Tue" selected="True" rename="Right_Tue" input="Right_" />
+                <SelectField field="Left_Mon" selected="True" input="Left_" />
+                <SelectField field="Right_Wed" selected="True" rename="Right_Wed" input="Right_" />
+                <SelectField field="Left_Tue" selected="True" input="Left_" />
+                <SelectField field="Right_Thu" selected="True" rename="Right_Thu" input="Right_" />
+                <SelectField field="Left_Wed" selected="True" input="Left_" />
+                <SelectField field="Right_Fri" selected="True" rename="Right_Fri" input="Right_" />
+                <SelectField field="Left_Thu" selected="True" input="Left_" />
+                <SelectField field="Left_Fri" selected="True" input="Left_" />
+                <SelectField field="Right_Sun" selected="True" rename="Right_Sun" input="Right_" />
+                <SelectField field="Right_Sat" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="3306" y="1110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;N&quot;" field="Sat" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Sat = "N"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="3306" y="1242" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;N&quot;" field="Sun" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;N&quot;" field="Mon" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;N&quot;" field="Tue" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;N&quot;" field="Wed" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;N&quot;" field="Thu" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;N&quot;" field="Fri" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Sun = "N"
+Mon = "N"
+Tue = "N"
+Wed = "N"
+Thu = "N"
+Fri = "N"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="3426" y="1182" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="3534" y="1182" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CrossDock" selected="True" />
+            <SelectField field="LP" selected="True" />
+            <SelectField field="Route" selected="True" />
+            <SelectField field="RouteMileage" selected="True" />
+            <SelectField field="Leg Miles" selected="True" />
+            <SelectField field="Stops" selected="True" />
+            <SelectField field="Sequence" selected="True" />
+            <SelectField field="Supplier Code" selected="True" />
+            <SelectField field="Beginning Day Flag" selected="True" />
+            <SelectField field="StartTime" selected="True" />
+            <SelectField field="Ending Day Flag" selected="True" />
+            <SelectField field="FinishTime" selected="True" />
+            <SelectField field="Sun" selected="True" />
+            <SelectField field="Mon" selected="True" />
+            <SelectField field="Tue" selected="True" />
+            <SelectField field="Wed" selected="True" />
+            <SelectField field="Thu" selected="True" />
+            <SelectField field="Fri" selected="True" />
+            <SelectField field="Sat" selected="True" />
+            <SelectField field="PickupDays" selected="True" />
+            <SelectField field="Suppliers" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="3606" y="1122" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\thomasa\AppData\Local\Temp\Engine_9844_dc1baa18219346aaba00e1cf830f5227_\Engine_9920_6e5e2a0b47f641bb9371b8f4348689ee_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="3798" y="1182" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="25" MaxRecords="">L:\TrafficPricing\Private\(YIELD)\- TMCOTR -\Alteryx Change-Over\Dispatch Prep File\DD Ramp UP\DD Ramp Up_Flat File.xlsx|||Flat File CMF</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DD Ramp Up_Flat File.xlsx
+Query=Flat File CMF</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="77">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="3642" y="1182" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Route" order="Ascending" />
+            <Field field="Sequence" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Route - Ascending
+Sequence - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="True" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="True" />
+      <Destination ToolID="9" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="13" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="True" />
+      <Destination ToolID="13" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="28" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="True" />
+      <Destination ToolID="28" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="38" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="True" />
+      <Destination ToolID="38" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="48" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="True" />
+      <Destination ToolID="48" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="58" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="True" />
+      <Destination ToolID="58" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="68" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="True" />
+      <Destination ToolID="68" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="14" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Join" />
+      <Destination ToolID="14" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="True" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Join" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Join" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Right" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Left" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Right" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="14" Connection="Join" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="30" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Join" />
+      <Destination ToolID="30" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="True" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Left" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Right" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="30" Connection="Join" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="40" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Join" />
+      <Destination ToolID="40" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="True" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Left" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Right" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="40" Connection="Join" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="50" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Join" />
+      <Destination ToolID="50" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="True" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Left" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Right" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="50" Connection="Join" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="60" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Join" />
+      <Destination ToolID="60" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="True" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Left" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Right" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="60" Connection="Join" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="70" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Join" />
+      <Destination ToolID="70" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="True" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Left" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Right" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="70" Connection="Join" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="77" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="77" Connection="Output" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Dispatch Sched to Flat File</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
